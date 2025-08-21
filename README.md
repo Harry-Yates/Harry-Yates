@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 16°C, right now there are just a few clouds ambling aimlessly, perhaps contemplating their ephemeral existence.
+Based in Stockholm, where the temperature is 16°C, right now an overcast sky, draped in a monotone grey that could very well match Pantone's 'Quiet Gray' (PANTONE 14-4107 TCX), suggests the sun has taken a personal day, likely without approval.
 <!-- WEATHER_END -->
 
 <p align="left">
