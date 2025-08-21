@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 16°C, right now there are just a few clouds ambling aimlessly, perhaps contemplating their ephemeral existence.
+Based in Stockholm, where the temperature is 17°C, right now there are just a few clouds ambling aimlessly, perhaps contemplating their ephemeral existence.
 <!-- WEATHER_END -->
 
 <p align="left">
