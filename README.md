@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 9°C, right now moderate rain is coming down, perfect for a day of indoor existential pondering.
+Based in Stockholm, where the temperature is 9°C, right now we've got some pretty heavy rain
 <!-- WEATHER_END -->
 
 <p align="left">
