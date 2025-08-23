@@ -134,7 +134,7 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	// Location with forecast teaser
 	let message = `Based in ${cityName}`;
 	if (details.dailySummary) {
-		message += ` where you can *${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}*`;
+		message += ` · *${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}*`;
 	}
 	message += `\n\n`;
 	
@@ -179,10 +179,7 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	
 	message += metrics.join('  \n');
 	
-	// Daily forecast as a subtle footer
-	if (details.dailySummary) {
-		message += `\n\n---\n*${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}*`;
-	}
+	message += `\n\n---`;
 	
 	return message;
 };

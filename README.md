@@ -3,14 +3,14 @@ British Web Developer focused on TypeScript, React, and Three.js.
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm where you can *Expect a day of partly cloudy with rain*
+Based in Stockholm · *Expect a day of partly cloudy with rain*
 
 # 16°
 ☁️ **Partly cloudy with scattered cloud cover**
 
 **↑** 16° **↓** 7°  
 **Wind** 19 km/h N  
-**Humidity** 60%  
+**Humidity** 59%  
 **Rain** 100%
 
 ---
