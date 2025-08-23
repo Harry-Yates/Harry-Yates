@@ -151,14 +151,20 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		message += `☀️ ${details.clouds}% clouds\n`;
 	}
 	
-	// Additional details in a subtle format
+	// Additional details on a new line if needed
+	let additionalInfo = '';
+	
 	if (details.visibility < 10000) {
-		message += `👁️ Visibility ${(details.visibility/1000).toFixed(1)} km · `;
+		additionalInfo += `👁️ Visibility ${(details.visibility/1000).toFixed(1)} km · `;
 	}
 	
 	if (details.uvi >= 3) {
 		const uviEmoji = details.uvi >= 6 ? '⚠️' : '';
-		message += `UV ${details.uvi.toFixed(0)} ${uviEmoji}`;
+		additionalInfo += `UV ${details.uvi.toFixed(0)} ${uviEmoji}`;
+	}
+	
+	if (additionalInfo) {
+		message += `\n${additionalInfo.trim()}`;
 	}
 	
 	// Daily summary as a quote if available
