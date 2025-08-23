@@ -131,7 +131,11 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	};
 	
 	// Build cleaner weather report
-	let message = `📍 **${cityName}** · ${getWeatherEmoji(description)} ${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}\n\n`;
+	// Current conditions at the top
+	let message = `📍 **${cityName}**\n\n`;
+	
+	// Current conditions section
+	message += `**Now:** ${getWeatherEmoji(description)} ${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}\n`;
 	
 	// Main temperature display
 	message += `## ${temperature}°C\n`;
@@ -144,14 +148,8 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		conditions.push(`Feels like ${feelsLike}°`);
 	}
 	
-	conditions.push(`↑${details.tempMax}° ↓${details.tempMin}°`);
 	conditions.push(`${details.windSpeed} km/h ${details.windDirection}`);
 	conditions.push(`${details.humidity}% humidity`);
-	
-	// Add rain or cloud info
-	if (details.precipProbability > 20) {
-		conditions.push(`${details.precipProbability}% rain`);
-	}
 	
 	// Add UV if moderate or higher
 	if (details.uvi >= 3) {
@@ -165,9 +163,16 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	
 	message += conditions.join(' · ');
 	
-	// Daily summary on its own if available
-	if (details.dailySummary) {
-		message += `\n\n${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}`;
+	// Today's forecast section - clearly labeled
+	if (details.dailySummary || details.tempMax !== undefined) {
+		message += `\n\n**Today:** `;
+		if (details.dailySummary) {
+			message += details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1);
+		}
+		message += ` · ↑${details.tempMax}° ↓${details.tempMin}°`;
+		if (details.precipProbability > 20) {
+			message += ` · ${details.precipProbability}% rain`;
+		}
 	}
 	
 	return message;
