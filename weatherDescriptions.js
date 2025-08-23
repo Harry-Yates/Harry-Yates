@@ -131,8 +131,17 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	};
 	
 	// Build cleaner weather report
-	// Current conditions at the top
 	let message = `📍 **${cityName}**\n\n`;
+	
+	// Today's forecast at the top
+	if (details.dailySummary) {
+		message += `**Today:** ${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}`;
+		message += ` · ↑${details.tempMax}° ↓${details.tempMin}°`;
+		if (details.precipProbability > 20) {
+			message += ` · ${details.precipProbability}% rain`;
+		}
+		message += `\n\n`;
+	}
 	
 	// Current conditions section
 	message += `**Now:** ${getWeatherEmoji(description)} ${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}\n`;
@@ -162,18 +171,6 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	}
 	
 	message += conditions.join(' · ');
-	
-	// Today's forecast section - clearly labeled
-	if (details.dailySummary || details.tempMax !== undefined) {
-		message += `\n\n**Today:** `;
-		if (details.dailySummary) {
-			message += details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1);
-		}
-		message += ` · ↑${details.tempMax}° ↓${details.tempMin}°`;
-		if (details.precipProbability > 20) {
-			message += ` · ${details.precipProbability}% rain`;
-		}
-	}
 	
 	return message;
 };

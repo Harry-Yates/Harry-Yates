@@ -3,11 +3,11 @@ British Web Developer focused on TypeScript, React, and Three.js.
 <!-- WEATHER_START -->
 📍 **Stockholm**
 
-**Now:** ☁️ Partly cloudy with scattered cloud cover
-## 15°C
-20 km/h NNW · 61% humidity · UV 3
-
 **Today:** Expect a day of partly cloudy with rain · ↑16° ↓7° · 100% rain
+
+**Now:** ☁️ Partly cloudy with scattered cloud cover
+## 16°C
+20 km/h NNW · 61% humidity · UV 3
 <!-- WEATHER_END -->
 
 <p align="left">
