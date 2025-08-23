@@ -130,11 +130,32 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		return `${temp}°`;
 	};
 	
+	// Function to fix common grammar issues in forecasts
+	const fixForecastGrammar = (summary) => {
+		if (!summary) return '';
+		
+		// Fix common grammatical issues
+		let fixed = summary
+			.replace(/Expect a day of partly cloudy/gi, 'Expect partly cloudy conditions')
+			.replace(/Expect a day of overcast/gi, 'Expect overcast conditions')
+			.replace(/Expect a day of clear/gi, 'Expect clear skies')
+			.replace(/Expect a day of mostly cloudy/gi, 'Expect mostly cloudy conditions')
+			.replace(/partly cloudy with/gi, 'partly cloudy conditions with')
+			.replace(/overcast with/gi, 'overcast conditions with')
+			.replace(/clear with/gi, 'clear skies with')
+			.replace(/mostly cloudy with/gi, 'mostly cloudy conditions with')
+			.replace(/Expect a day of (.+) with (.+)/gi, 'Expect $1 conditions with $2');
+			
+		// Ensure first letter is capitalised
+		return fixed.charAt(0).toUpperCase() + fixed.slice(1);
+	};
+	
 	// Build cleaner weather report
 	// Location with forecast teaser
 	let message = `Based in ${cityName}`;
 	if (details.dailySummary) {
-		message += ` · *${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}*`;
+		const cleanSummary = fixForecastGrammar(details.dailySummary);
+		message += ` · *${cleanSummary}*`;
 	}
 	message += `\n\n`;
 	

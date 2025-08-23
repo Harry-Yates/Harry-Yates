@@ -3,7 +3,7 @@ British Web Developer focused on TypeScript, React, and Three.js.
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *Expect a day of partly cloudy with rain*
+Based in Stockholm · *Expect partly cloudy conditions with rain*
 
 # 16°
 ☁️ **Partly cloudy with scattered cloud cover**
@@ -13,7 +13,7 @@ Based in Stockholm · *Expect a day of partly cloudy with rain*
 **Humidity** 59%  
 **Rain** 100%
 
----
+#
 <!-- WEATHER_END -->
 
 <p align="left">
