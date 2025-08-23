@@ -1,127 +1,107 @@
 const weatherDescriptions = {
-	//MAIN - ENDPOINT
-	//   clouds: "it's a cloudy day, with the sun peeking through occasionally.",
-	//   "shower rain": "expect some shower rain today.",
-	//   rain: "it's a rainy day, don't forget your umbrella.",
-	//   thunderstorm: "a thunderstorm is occurring, stay safe indoors.",
-	//   snow: "it's a snowy day, perfect for a snowman!",
-	//   mist: "the mist has set in, creating a mystical atmosphere.",
-	//   clear: "the sky is clear and blue, a perfect day ahead.",
-	//   tornado: "a tornado is forming, seek shelter immediately!",
-	//   squall: "squalls are passing through, hold onto your hat!",
-	//   ash: "volcanic ash is filling the air, stay indoors if possible.",
-	//   dust: "a dusty haze is hanging in the air.",
-	//   sand: "sandy winds are sweeping across the area.",
-	//   fog: "a thick fog is enveloping the surroundings.",
-	//   haze: "a light haze is blurring the horizon.",
-	//   smoke: "smoke is in the air, be cautious of reduced visibility.",
-	//   drizzle: "a light drizzle is adding a touch of freshness to the day.",
-
-	//DESCRIPTIONS - ENDPOINT
-
 	//THUNDERSTORM
 	"thunderstorm with light rain":
-		"A thunderstorm is brewing, with light rain adding a touch of melodrama. Nature's having a bit of a sulk.",
+		"thunderstorm conditions with light rain",
 	"thunderstorm with rain":
-		"a thunderstorm is bringing steady rain along with it.",
+		"thunderstorm with moderate rainfall",
 	"thunderstorm with heavy rain":
-		"heavy rain is pouring down from a fierce thunderstorm.",
-	"light thunderstorm": "a light thunderstorm is crackling in the distance.",
-	thunderstorm: "a thunderstorm is rumbling overhead, stay safe!",
+		"severe thunderstorm with heavy precipitation",
+	"light thunderstorm": "mild thunderstorm activity",
+	thunderstorm: "active thunderstorm conditions",
 	"heavy thunderstorm":
-		"a heavy thunderstorm is booming, it's quite a spectacle!",
+		"severe thunderstorm with intense electrical activity",
 	"ragged thunderstorm":
-		"An unpredictable, ragged thunderstorm is passing through, keeping everyone on their toes. It's like the weather's gone rogue!",
+		"irregular thunderstorm patterns moving through the area",
 	"thunderstorm with light drizzle":
-		"A thunderstorm is accompanied by a light drizzle, adding a touch of mystery. The sky can't decide whether to be dramatic or just mildly irritating.",
+		"thunderstorm accompanied by light drizzle",
 	"thunderstorm with drizzle":
-		"a thunderstorm with a gentle drizzle is setting the mood.",
+		"thunderstorm conditions with steady drizzle",
 	"thunderstorm with heavy drizzle":
-		"a heavy drizzle is adding to the intensity of the thunderstorm.",
+		"thunderstorm with persistent heavy drizzle",
 
 	//DRIZZLE
 	"light intensity drizzle":
-		"a light drizzle is gently misting the surroundings.",
-	drizzle: "a steady drizzle is dampening the streets.",
-	"heavy intensity drizzle": "a heavy drizzle is soaking everything in sight.",
-	"light intensity drizzle rain": "light drizzle rain is gently falling.",
-	"drizzle rain": "drizzle rain is creating a soothing rhythm.",
+		"light drizzle with minimal accumulation",
+	drizzle: "steady drizzle conditions",
+	"heavy intensity drizzle": "heavy drizzle with increased moisture",
+	"light intensity drizzle rain": "light drizzle transitioning to rain",
+	"drizzle rain": "mixed drizzle and rain conditions",
 	"heavy intensity drizzle rain":
-		"heavy drizzle rain is coming down persistently.",
+		"heavy drizzle with rain periods",
 	"shower rain and drizzle":
-		"intermittent showers and drizzle are making for a wet day.",
+		"intermittent showers with drizzle",
 	"heavy shower rain and drizzle":
-		"heavy showers mixed with drizzle are drenching the area.",
+		"heavy shower activity with persistent drizzle",
 	"shower drizzle":
-		"a shower drizzle is passing through, light and refreshing.",
+		"brief shower drizzle passing through",
 
 	//RAIN
 	"light rain":
-		"A bit of light rain at the moment, like the sky's just testing the waters.",
+		"light rain with minimal accumulation",
 	"moderate rain":
-		"moderate rain is coming down, perfect for a day of indoor existential pondering.",
-	"heavy intensity rain": "we've got some pretty heavy rain",
+		"moderate rainfall with steady precipitation",
+	"heavy intensity rain": "heavy rain with significant accumulation",
 	"very heavy rain":
-		"Very heavy rain is drenching the streets, like the sky's having a bit of a meltdown.",
+		"very heavy rainfall affecting visibility",
 	"extreme rain":
-		"Extreme rain is lashing out, it's like the sky's throwing a hissy fit!",
+		"extreme rainfall conditions with potential flooding",
 	"freezing rain":
-		"freezing rain is making the sidewalks slippery, be careful.",
-	"light intensity shower rain": "light shower rain is sprinkling the area.",
-	"shower rain": "shower rain is washing over the city, refreshing the air.",
+		"freezing rain creating hazardous surface conditions",
+	"light intensity shower rain": "light shower activity",
+	"shower rain": "shower conditions with variable intensity",
 	"heavy intensity shower rain":
-		"heavy shower rain is soaking everything, an umbrella is a must unless you fancy a free shower.",
+		"heavy showers with significant rainfall",
 	"ragged shower rain":
-		"ragged shower rain is passing through, with bursts of rain here and there.",
+		"irregular shower patterns moving through",
 
 	//SNOW
-	"light snow": "a light snow is dusting the city.",
-	snow: "it's a picturesque scene with snow falling and blanketing the ground.",
+	"light snow": "light snowfall with minimal accumulation",
+	snow: "steady snowfall conditions",
 	"heavy snow":
-		"a heavy snowfall is transforming the landscape into a winter wonderland!",
-	sleet: "sleet is falling, a brisk mix of rain and snow.",
+		"heavy snowfall with rapid accumulation",
+	sleet: "mixed rain and snow creating sleet conditions",
 	"light shower sleet":
-		"there are light sleet showers passing through, a brief mix of rain and snow.",
+		"light sleet showers passing through",
 	"shower sleet":
-		"shower sleet is coming down, creating a chilly mix of rain and snow.",
+		"moderate sleet shower activity",
 	"light rain and snow":
-		"light rain is mixing with snow, making the streets glisten.",
+		"light mix of rain and snow",
 	"rain and snow":
-		"rain and snow are combining, creating a grim slushy mix underfoot.",
-	"light shower snow": "light snow is falling.",
+		"mixed precipitation with rain and snow",
+	"light shower snow": "light snow showers",
 	"shower snow":
-		"snow showers are covering the streets, adding a touch of winter charm.",
+		"moderate snow shower activity",
 	"heavy shower snow":
-		"heavy snow is quickly piling up, leaving a thick blanket on the ground.",
+		"heavy snow showers with rapid accumulation",
 
 	//ATMOSPHERE
-	mist: "a light mist is enveloping the surroundings, creating a serene atmosphere.",
-	smoke: "smoke is drifting through the air, reducing visibility.",
-	haze: "a soft haze is hanging over the city, blurring distant views.",
+	mist: "misty conditions with reduced visibility",
+	smoke: "smoke affecting air quality and visibility",
+	haze: "hazy conditions limiting distant visibility",
 	"sand/dust whirls":
-		"sand and dust are swirling in the air, a dance of nature's elements.",
-	fog: "a thick fog is blanketing the area, shrouding everything!",
-	sand: "grains of sand are being whisked through the air, a reminder of the desert's presence.",
-	dust: "a dusty haze is hanging in the air, covering the landscape.",
+		"dust devil activity with swirling sand and dust",
+	fog: "foggy conditions with significantly reduced visibility",
+	sand: "sandstorm conditions with airborne particles",
+	dust: "dusty conditions affecting air quality",
 	"volcanic ash":
-		"volcanic ash is filling the sky, a stark reminder of nature's power.",
-	squalls: "squalls are sweeping through, bringing bursts of intense wind.",
+		"volcanic ash present in the atmosphere",
+	squalls: "squally conditions with sudden strong winds",
 	tornado:
-		"a tornado is forming, a powerful and awe-inspiring sight. Seek shelter immediately!",
+		"tornado warning - seek immediate shelter",
 
 	//CLEAR
 	"clear sky":
-		"A clear sky today, like the weather's decided to take a holiday. Don't worry, chaos will resume shortly.",
+		"clear skies with excellent visibility",
 
 	//CLOUDS
 	"few clouds":
-		"there are just a few clouds ambling aimlessly, perhaps contemplating their ephemeral existence.",
+		"mostly clear with a few clouds",
 	"scattered clouds":
-		"scattered clouds meander across the sky, each seemingly avoiding one another in an exercise of awkward social distancing.",
+		"partly cloudy with scattered cloud cover",
 	"broken clouds":
-		"the sky appears to have started a jigsaw, with broken clouds scattered about as if in the midst of an existential crisis about whether to come together or remain aloof.",
+		"mostly cloudy with broken cloud formations",
 	"overcast clouds":
-		"an overcast sky, draped in a monotone grey that could very well match Pantone's 'Quiet Gray' (PANTONE 14-4107 TCX), suggests the sun has taken a personal day, likely without approval.",
+		"overcast conditions with complete cloud cover",
 };
 
 const getWeatherMessage = (temperature, description, cityName) => {
