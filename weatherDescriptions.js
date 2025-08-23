@@ -131,10 +131,8 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	};
 	
 	// Build cleaner weather report
-	let message = `### Based in ${cityName}\n`;
-	
 	// Main temperature as the hero element
-	message += `# ${temperature}°\n`;
+	let message = `# ${temperature}°\n`;
 	
 	// Current condition with emoji
 	message += `${getWeatherEmoji(description)} **${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}**\n\n`;
