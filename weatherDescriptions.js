@@ -176,12 +176,6 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		metrics.push(`**Feels** ${feelsLike}°`);
 	}
 	
-	// Wind
-	metrics.push(`**Wind** ${details.windSpeed} km/h ${details.windDirection}`);
-	
-	// Humidity
-	metrics.push(`**Humidity** ${details.humidity}%`);
-	
 	// Rain probability if significant
 	if (details.precipProbability > 20) {
 		metrics.push(`**Rain** ${details.precipProbability}%`);
