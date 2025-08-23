@@ -131,46 +131,53 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	};
 	
 	// Build cleaner weather report
-	let message = `📍 **${cityName}**\n\n`;
+	let message = `### 📍 ${cityName}\n`;
 	
-	// Today's forecast at the top
-	if (details.dailySummary) {
-		message += `**Today:** ${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}`;
-		message += ` · ↑${details.tempMax}° ↓${details.tempMin}°`;
-		if (details.precipProbability > 20) {
-			message += ` · ${details.precipProbability}% rain`;
-		}
-		message += `\n\n`;
-	}
+	// Main temperature as the hero element
+	message += `# ${temperature}°\n`;
 	
-	// Current conditions section
-	message += `**Now:** ${getWeatherEmoji(description)} ${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}\n`;
+	// Current condition with emoji
+	message += `${getWeatherEmoji(description)} **${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}**\n\n`;
 	
-	// Main temperature display
-	message += `## ${temperature}°C\n`;
+	// Key metrics in a clean grid-like format
+	let metrics = [];
 	
-	// Compact conditions line
-	let conditions = [];
+	// Temperature range
+	metrics.push(`**↑** ${details.tempMax}° **↓** ${details.tempMin}°`);
 	
 	// Add feels like only if significantly different
 	if (Math.abs(temperature - feelsLike) >= 3) {
-		conditions.push(`Feels like ${feelsLike}°`);
+		metrics.push(`**Feels** ${feelsLike}°`);
 	}
 	
-	conditions.push(`${details.windSpeed} km/h ${details.windDirection}`);
-	conditions.push(`${details.humidity}% humidity`);
+	// Wind
+	metrics.push(`**Wind** ${details.windSpeed} km/h ${details.windDirection}`);
 	
-	// Add UV if moderate or higher
+	// Humidity
+	metrics.push(`**Humidity** ${details.humidity}%`);
+	
+	// Rain probability if significant
+	if (details.precipProbability > 20) {
+		metrics.push(`**Rain** ${details.precipProbability}%`);
+	}
+	
+	// UV if moderate or higher
 	if (details.uvi >= 3) {
-		conditions.push(`UV ${details.uvi.toFixed(0)}`);
+		const uviWarning = details.uvi >= 6 ? ' ⚠️' : '';
+		metrics.push(`**UV** ${details.uvi.toFixed(0)}${uviWarning}`);
 	}
 	
 	// Add visibility only if poor
 	if (details.visibility < 5000) {
-		conditions.push(`${(details.visibility/1000).toFixed(1)}km visibility`);
+		metrics.push(`**Visibility** ${(details.visibility/1000).toFixed(1)} km`);
 	}
 	
-	message += conditions.join(' · ');
+	message += metrics.join('  \n');
+	
+	// Daily forecast as a subtle footer
+	if (details.dailySummary) {
+		message += `\n\n---\n*${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}*`;
+	}
 	
 	return message;
 };
