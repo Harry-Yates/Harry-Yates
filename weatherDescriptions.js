@@ -104,11 +104,47 @@ const weatherDescriptions = {
 		"overcast conditions with complete cloud cover",
 };
 
-const getWeatherMessage = (temperature, description, cityName) => {
-	const message =
+const getWeatherMessage = (temperature, feelsLike, description, cityName, details) => {
+	const weatherDesc =
 		weatherDescriptions[description.toLowerCase()] ||
-		"it's an unusual weather day.";
-	return `Based in ${cityName}, where the temperature is ${temperature}°C, right now ${message}`;
+		"unusual weather conditions";
+	
+	// UV Index categorization
+	const getUVLevel = (uvi) => {
+		if (uvi <= 2) return "Low";
+		if (uvi <= 5) return "Moderate";
+		if (uvi <= 7) return "High";
+		if (uvi <= 10) return "Very High";
+		return "Extreme";
+	};
+	
+	// Visibility description
+	const getVisibilityDesc = (vis) => {
+		if (vis >= 10000) return "Excellent";
+		if (vis >= 5000) return "Good";
+		if (vis >= 1000) return "Moderate";
+		return "Poor";
+	};
+	
+	// Build comprehensive weather report
+	let message = `**Based in ${cityName}**\n\n`;
+	message += `**Current Conditions:** ${weatherDesc}\n\n`;
+	message += `**Temperature:** ${temperature}°C (Feels like ${feelsLike}°C) | High: ${details.tempMax}°C, Low: ${details.tempMin}°C\n`;
+	message += `**Wind:** ${details.windSpeed} km/h from ${details.windDirection}\n`;
+	message += `**Humidity:** ${details.humidity}% | **Pressure:** ${details.pressure} hPa\n`;
+	message += `**Visibility:** ${getVisibilityDesc(details.visibility)} (${(details.visibility/1000).toFixed(1)} km)\n`;
+	message += `**UV Index:** ${details.uvi.toFixed(1)} (${getUVLevel(details.uvi)})\n`;
+	message += `**Cloud Cover:** ${details.clouds}%\n`;
+	
+	if (details.precipProbability > 0) {
+		message += `**Precipitation Probability:** ${details.precipProbability}%\n`;
+	}
+	
+	if (details.dailySummary) {
+		message += `\n**Today's Forecast:** ${details.dailySummary}`;
+	}
+	
+	return message;
 };
 
 module.exports = getWeatherMessage;

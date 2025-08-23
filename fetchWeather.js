@@ -22,24 +22,64 @@ const fetchWeather = async () => {
       console.error(
         `API call failed with status: ${response.status} ${response.statusText}`
       );
-      return "Based in Stockholm, the sky appears to have started a jigsaw, with broken clouds scattered about as if in the midst of an existential crisis about whether to come together or remain aloof.";
+      return "Based in Stockholm. Weather data temporarily unavailable.";
     }
     const data = await response.json();
-    // console.log("Data received:", data);
 
-    const temperature = Math.round(data.current.temp);
-    const weatherCondition = data.current.weather[0].description;
-    // console.log(`Weather condition received: ${weatherCondition}`);
+    // Extract comprehensive weather data
+    const current = data.current;
+    const daily = data.daily[0]; // Today's forecast
+    
+    // Current conditions
+    const temperature = Math.round(current.temp);
+    const feelsLike = Math.round(current.feels_like);
+    const weatherCondition = current.weather[0].description;
+    const humidity = current.humidity;
+    const windSpeed = Math.round(current.wind_speed * 3.6); // Convert m/s to km/h
+    const windDeg = current.wind_deg;
+    const pressure = current.pressure;
+    const uvi = current.uvi;
+    const visibility = current.visibility;
+    const clouds = current.clouds;
+    
+    // Daily forecast data
+    const tempMin = Math.round(daily.temp.min);
+    const tempMax = Math.round(daily.temp.max);
+    const dailySummary = daily.summary || "";
+    const precipProbability = Math.round(daily.pop * 100);
+    
+    // Wind direction conversion
+    const getWindDirection = (deg) => {
+      const directions = ['N', 'NNE', 'NE', 'ENE', 'E', 'ESE', 'SE', 'SSE', 
+                         'S', 'SSW', 'SW', 'WSW', 'W', 'WNW', 'NW', 'NNW'];
+      return directions[Math.round(deg / 22.5) % 16];
+    };
+    
+    // Build comprehensive weather message
     const weatherMessage = getWeatherMessage(
       temperature,
+      feelsLike,
       weatherCondition,
-      currentCity.name
+      currentCity.name,
+      {
+        humidity,
+        windSpeed,
+        windDirection: getWindDirection(windDeg),
+        pressure,
+        uvi,
+        visibility,
+        clouds,
+        tempMin,
+        tempMax,
+        dailySummary,
+        precipProbability
+      }
     );
 
     return weatherMessage;
   } catch (error) {
     console.error("Error fetching weather data:", error);
-    return "Based in Stockholm, the sky appears to have started a jigsaw, with broken clouds scattered about as if in the midst of an existential crisis about whether to come together or remain aloof.";
+    return "Based in Stockholm. Weather data temporarily unavailable.";
   }
 };
 
