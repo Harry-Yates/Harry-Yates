@@ -79,15 +79,15 @@ const weatherDescriptions = {
 	smoke: "smoke affecting air quality and visibility",
 	haze: "hazy conditions limiting distant visibility",
 	"sand/dust whirls":
-		"dust devil activity with swirling sand and dust",
+		"dust devils with swirling sand and dust",
 	fog: "foggy conditions with significantly reduced visibility",
 	sand: "sandstorm conditions with airborne particles",
 	dust: "dusty conditions affecting air quality",
 	"volcanic ash":
 		"volcanic ash present in the atmosphere",
-	squalls: "squally conditions with sudden strong winds",
+	squalls: "squalls with sudden strong winds",
 	tornado:
-		"tornado warning - seek immediate shelter",
+		"tornado warning – seek immediate shelter",
 
 	//CLEAR
 	"clear sky":
