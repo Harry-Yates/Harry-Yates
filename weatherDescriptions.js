@@ -133,43 +133,41 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	// Build cleaner weather report
 	let message = `📍 **${cityName}** · ${getWeatherEmoji(description)} ${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}\n\n`;
 	
-	// Temperature line with visual separation
-	message += `🌡️ **${formatTemp(temperature)}C** `;
-	if (Math.abs(temperature - feelsLike) >= 2) {
-		message += `(feels like ${formatTemp(feelsLike)}C) `;
+	// Main temperature display
+	message += `## ${formatTemp(temperature)}°C\n`;
+	
+	// Compact conditions line
+	let conditions = [];
+	
+	// Add feels like only if significantly different
+	if (Math.abs(temperature - feelsLike) >= 3) {
+		conditions.push(`Feels like ${formatTemp(feelsLike)}°`);
 	}
-	message += `· ↑ ${formatTemp(details.tempMax)} ↓ ${formatTemp(details.tempMin)}\n`;
 	
-	// Conditions in a more compact format
-	message += `💨 ${details.windSpeed} km/h ${details.windDirection} · `;
-	message += `💧 ${details.humidity}% · `;
+	conditions.push(`↑${formatTemp(details.tempMax)}° ↓${formatTemp(details.tempMin)}°`);
+	conditions.push(`${details.windSpeed} km/h ${details.windDirection}`);
+	conditions.push(`${details.humidity}% humidity`);
 	
-	// Only show precipitation if there's a chance
+	// Add rain or cloud info
 	if (details.precipProbability > 20) {
-		message += `☔ ${details.precipProbability}% chance\n`;
-	} else {
-		message += `☀️ ${details.clouds}% clouds\n`;
+		conditions.push(`${details.precipProbability}% rain`);
 	}
 	
-	// Additional details on a new line if needed
-	let additionalInfo = '';
-	
-	if (details.visibility < 10000) {
-		additionalInfo += `👁️ Visibility ${(details.visibility/1000).toFixed(1)} km · `;
-	}
-	
+	// Add UV if moderate or higher
 	if (details.uvi >= 3) {
-		const uviEmoji = details.uvi >= 6 ? '⚠️' : '';
-		additionalInfo += `UV ${details.uvi.toFixed(0)} ${uviEmoji}`;
+		conditions.push(`UV ${details.uvi.toFixed(0)}`);
 	}
 	
-	if (additionalInfo) {
-		message += `\n${additionalInfo.trim()}`;
+	// Add visibility only if poor
+	if (details.visibility < 5000) {
+		conditions.push(`${(details.visibility/1000).toFixed(1)}km visibility`);
 	}
 	
-	// Daily summary as a quote if available
+	message += conditions.join(' · ');
+	
+	// Daily summary on its own if available
 	if (details.dailySummary) {
-		message += `\n\n_"${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}"_`;
+		message += `\n\n${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}`;
 	}
 	
 	return message;
