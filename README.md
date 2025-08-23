@@ -1,19 +1,13 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-**Based in Stockholm**
+📍 **Stockholm** · ☁️ Partly cloudy with scattered cloud cover
 
-**Current Conditions:** partly cloudy with scattered cloud cover
+🌡️ **16°C** · ↑ 16° ↓ 7°
+💨 20 km/h NNW · 💧 62% · ☔ 100% chance
+UV 3 
 
-**Temperature:** 16°C (Feels like 15°C) | High: 16°C, Low: 7°C
-**Wind:** 20 km/h from NNW
-**Humidity:** 62% | **Pressure:** 1006 hPa
-**Visibility:** Excellent (10.0 km)
-**UV Index:** 3.3 (Moderate)
-**Cloud Cover:** 40%
-**Precipitation Probability:** 100%
-
-**Today's Forecast:** Expect a day of partly cloudy with rain
+_"Expect a day of partly cloudy with rain"_
 <!-- WEATHER_END -->
 
 <p align="left">

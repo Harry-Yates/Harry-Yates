@@ -109,39 +109,61 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		weatherDescriptions[description.toLowerCase()] ||
 		"unusual weather conditions";
 	
-	// UV Index categorization
-	const getUVLevel = (uvi) => {
-		if (uvi <= 2) return "Low";
-		if (uvi <= 5) return "Moderate";
-		if (uvi <= 7) return "High";
-		if (uvi <= 10) return "Very High";
-		return "Extreme";
+	// Get weather emoji based on conditions
+	const getWeatherEmoji = (desc) => {
+		const d = desc.toLowerCase();
+		if (d.includes('clear')) return '☀️';
+		if (d.includes('cloud')) return '☁️';
+		if (d.includes('rain') || d.includes('drizzle')) return '🌧️';
+		if (d.includes('thunder')) return '⛈️';
+		if (d.includes('snow')) return '❄️';
+		if (d.includes('mist') || d.includes('fog')) return '🌫️';
+		return '🌤️';
 	};
 	
-	// Visibility description
-	const getVisibilityDesc = (vis) => {
-		if (vis >= 10000) return "Excellent";
-		if (vis >= 5000) return "Good";
-		if (vis >= 1000) return "Moderate";
-		return "Poor";
+	// Format temperature with color hint
+	const formatTemp = (temp) => {
+		if (temp <= 0) return `${temp}°`;
+		if (temp <= 10) return `${temp}°`;
+		if (temp <= 20) return `${temp}°`;
+		if (temp <= 30) return `${temp}°`;
+		return `${temp}°`;
 	};
 	
-	// Build comprehensive weather report
-	let message = `**Based in ${cityName}**\n\n`;
-	message += `**Current Conditions:** ${weatherDesc}\n\n`;
-	message += `**Temperature:** ${temperature}°C (Feels like ${feelsLike}°C) | High: ${details.tempMax}°C, Low: ${details.tempMin}°C\n`;
-	message += `**Wind:** ${details.windSpeed} km/h from ${details.windDirection}\n`;
-	message += `**Humidity:** ${details.humidity}% | **Pressure:** ${details.pressure} hPa\n`;
-	message += `**Visibility:** ${getVisibilityDesc(details.visibility)} (${(details.visibility/1000).toFixed(1)} km)\n`;
-	message += `**UV Index:** ${details.uvi.toFixed(1)} (${getUVLevel(details.uvi)})\n`;
-	message += `**Cloud Cover:** ${details.clouds}%\n`;
+	// Build cleaner weather report
+	let message = `📍 **${cityName}** · ${getWeatherEmoji(description)} ${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}\n\n`;
 	
-	if (details.precipProbability > 0) {
-		message += `**Precipitation Probability:** ${details.precipProbability}%\n`;
+	// Temperature line with visual separation
+	message += `🌡️ **${formatTemp(temperature)}C** `;
+	if (Math.abs(temperature - feelsLike) >= 2) {
+		message += `(feels like ${formatTemp(feelsLike)}C) `;
+	}
+	message += `· ↑ ${formatTemp(details.tempMax)} ↓ ${formatTemp(details.tempMin)}\n`;
+	
+	// Conditions in a more compact format
+	message += `💨 ${details.windSpeed} km/h ${details.windDirection} · `;
+	message += `💧 ${details.humidity}% · `;
+	
+	// Only show precipitation if there's a chance
+	if (details.precipProbability > 20) {
+		message += `☔ ${details.precipProbability}% chance\n`;
+	} else {
+		message += `☀️ ${details.clouds}% clouds\n`;
 	}
 	
+	// Additional details in a subtle format
+	if (details.visibility < 10000) {
+		message += `👁️ Visibility ${(details.visibility/1000).toFixed(1)} km · `;
+	}
+	
+	if (details.uvi >= 3) {
+		const uviEmoji = details.uvi >= 6 ? '⚠️' : '';
+		message += `UV ${details.uvi.toFixed(0)} ${uviEmoji}`;
+	}
+	
+	// Daily summary as a quote if available
 	if (details.dailySummary) {
-		message += `\n**Today's Forecast:** ${details.dailySummary}`;
+		message += `\n\n_"${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}"_`;
 	}
 	
 	return message;
