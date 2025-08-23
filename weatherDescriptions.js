@@ -134,17 +134,17 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	let message = `📍 **${cityName}** · ${getWeatherEmoji(description)} ${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}\n\n`;
 	
 	// Main temperature display
-	message += `## ${formatTemp(temperature)}°C\n`;
+	message += `## ${temperature}°C\n`;
 	
 	// Compact conditions line
 	let conditions = [];
 	
 	// Add feels like only if significantly different
 	if (Math.abs(temperature - feelsLike) >= 3) {
-		conditions.push(`Feels like ${formatTemp(feelsLike)}°`);
+		conditions.push(`Feels like ${feelsLike}°`);
 	}
 	
-	conditions.push(`↑${formatTemp(details.tempMax)}° ↓${formatTemp(details.tempMin)}°`);
+	conditions.push(`↑${details.tempMax}° ↓${details.tempMin}°`);
 	conditions.push(`${details.windSpeed} km/h ${details.windDirection}`);
 	conditions.push(`${details.humidity}% humidity`);
 	
