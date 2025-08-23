@@ -3,7 +3,6 @@ British Web Developer focused on TypeScript, React, and Three.js.
 Based in Stockholm · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-### Based in Stockholm
 # 16°
 ☁️ **Partly cloudy with scattered cloud cover**
 
