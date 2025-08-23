@@ -1,12 +1,12 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-### 📍 Stockholm
+### Based in Stockholm
 # 16°
 ☁️ **Partly cloudy with scattered cloud cover**
 
 **↑** 16° **↓** 7°  
-**Wind** 20 km/h NNW  
+**Wind** 19 km/h N  
 **Humidity** 60%  
 **Rain** 100%
 
