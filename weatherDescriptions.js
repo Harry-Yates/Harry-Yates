@@ -131,8 +131,15 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	};
 	
 	// Build cleaner weather report
+	// Location with forecast teaser
+	let message = `Based in ${cityName}`;
+	if (details.dailySummary) {
+		message += ` where you can *${details.dailySummary.charAt(0).toUpperCase() + details.dailySummary.slice(1)}*`;
+	}
+	message += `\n\n`;
+	
 	// Main temperature as the hero element
-	let message = `# ${temperature}°\n`;
+	message += `# ${temperature}°\n`;
 	
 	// Current condition with emoji
 	message += `${getWeatherEmoji(description)} **${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}**\n\n`;
