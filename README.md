@@ -16,4 +16,4 @@ British Web Developer focused on TypeScript, React, and Three.js.
   </a>
 </p>
 
-[harryyates.com](https://harryyates.com) for recent projects.
+## [harryyates.com](https://harryyates.com) for recent projects.
