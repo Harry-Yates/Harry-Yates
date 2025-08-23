@@ -3,7 +3,7 @@ British Web Developer focused on TypeScript, React, and Three.js.
 <!-- WEATHER_START -->
 📍 **Stockholm** · ☁️ Partly cloudy with scattered cloud cover
 
-## 16°C
+## 15°C
 ↑16° ↓7° · 20 km/h NNW · 61% humidity · 100% rain · UV 3
 
 Expect a day of partly cloudy with rain
