@@ -131,7 +131,7 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	};
 	
 	// Build cleaner weather report
-	let message = `### 📍 ${cityName}\n`;
+	let message = `### Based in ${cityName}\n`;
 	
 	// Main temperature as the hero element
 	message += `# ${temperature}°\n`;
