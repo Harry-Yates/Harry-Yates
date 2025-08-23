@@ -1,5 +1,3 @@
-British Web Developer focused on TypeScript, React, and Three.js.
-
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
