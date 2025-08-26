@@ -7,7 +7,7 @@ Based in Stockholm · *The day will start with clear sky through the late mornin
 🌫️ **Foggy conditions with significantly reduced visibility**
 
 **↑** 19° **↓** 7°  
-**Visibility** 0.3 km
+**Visibility** 0.1 km
 
 ---
 <!-- WEATHER_END -->
