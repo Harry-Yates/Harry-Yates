@@ -6,7 +6,7 @@ Based in Stockholm · *There will be rain until morning, then partly cloudy*
 # 16°
 ☁️ **Mostly cloudy with broken cloud formations**
 
-**↑** 19° **↓** 14°  
+**↑** 18° **↓** 14°  
 **Rain** 22%
 
 ---
