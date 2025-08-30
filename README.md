@@ -4,7 +4,7 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *There will be rain until morning, then partly cloudy*
 
 # 16°
-☁️ **Overcast conditions with complete cloud cover**
+☁️ **Mostly cloudy with broken cloud formations**
 
 **↑** 18° **↓** 14°  
 **Rain** 22%
