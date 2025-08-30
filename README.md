@@ -1,13 +1,13 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *There will be rain until morning, then partly cloudy*
+Based in Stockholm · *Expect partly cloudy conditions with rain*
 
 # 14°
-☁️ **Overcast conditions with complete cloud cover**
+☁️ **Partly cloudy with scattered cloud cover**
 
-**↑** 18° **↓** 14°  
-**Rain** 22%
+**↑** 20° **↓** 13°  
+**Rain** 75%
 
 ---
 <!-- WEATHER_END -->
