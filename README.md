@@ -3,8 +3,8 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *There will be partly cloudy today*
 
-# 16°
-☁️ **Mostly clear with a few clouds**
+# 15°
+☁️ **Partly cloudy with scattered cloud cover**
 
 **↑** 19° **↓** 12°
 
