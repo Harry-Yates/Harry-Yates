@@ -4,7 +4,7 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *There will be clear sky until morning, then partly cloudy*
 
 # 16°
-☁️ **Mostly cloudy with broken cloud formations**
+☁️ **Overcast conditions with complete cloud cover**
 
 **↑** 18° **↓** 13°
 
