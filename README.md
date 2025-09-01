@@ -6,8 +6,7 @@ Based in Stockholm · *There will be clear sky until morning, then partly cloudy
 # 16°
 ☁️ **Mostly cloudy with broken cloud formations**
 
-**↑** 19° **↓** 13°  
-**UV** 3
+**↑** 18° **↓** 13°
 
 ---
 <!-- WEATHER_END -->
