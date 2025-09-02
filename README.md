@@ -4,7 +4,7 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *There will be partly cloudy today*
 
 # 17°
-🌧️ **Light drizzle with minimal accumulation**
+☁️ **Overcast conditions with complete cloud cover**
 
 **↑** 18° **↓** 15°
 
