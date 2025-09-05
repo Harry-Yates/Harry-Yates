@@ -1,7 +1,15 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm. Weather data temporarily unavailable.
+Based in Stockholm · *There will be partly cloudy today*
+
+# 16°
+🌫️ **Foggy conditions with significantly reduced visibility**
+
+**↑** 23° **↓** 16°  
+**Visibility** 0.1 km
+
+---
 <!-- WEATHER_END -->
 
 <p align="left">
