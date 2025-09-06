@@ -1,13 +1,13 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *Expect partly cloudy conditions with rain*
+Based in Stockholm · *There will be partly cloudy today*
 
 # 14°
 ☁️ **Partly cloudy with scattered cloud cover**
 
 **↑** 22° **↓** 14°  
-**Rain** 100%
+**Rain** 88%
 
 ---
 <!-- WEATHER_END -->
