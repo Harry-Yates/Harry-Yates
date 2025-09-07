@@ -1,7 +1,7 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *The day will start with partly cloudy through the late morning hours, transitioning to clearing*
+Based in Stockholm · *You can expect partly cloudy in the morning, with clearing in the afternoon*
 
 # 13°
 ☁️ **Overcast conditions with complete cloud cover**
