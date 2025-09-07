@@ -3,10 +3,10 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *The day will start with partly cloudy through the late morning hours, transitioning to clearing*
 
-# 12°
+# 13°
 ☁️ **Overcast conditions with complete cloud cover**
 
-**↑** 22° **↓** 12°
+**↑** 22° **↓** 13°
 
 ---
 <!-- WEATHER_END -->
