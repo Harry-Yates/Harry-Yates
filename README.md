@@ -6,7 +6,8 @@ Based in Stockholm · *The day will start with partly cloudy through the late mo
 # 12°
 🌫️ **Foggy conditions with significantly reduced visibility**
 
-**↑** 22° **↓** 12°
+**↑** 22° **↓** 12°  
+**Visibility** 2.2 km
 
 ---
 <!-- WEATHER_END -->
