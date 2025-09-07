@@ -4,10 +4,9 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *The day will start with partly cloudy through the late morning hours, transitioning to clearing*
 
 # 12°
-🌫️ **Foggy conditions with significantly reduced visibility**
+☁️ **Mostly cloudy with broken cloud formations**
 
-**↑** 22° **↓** 12°  
-**Visibility** 2.2 km
+**↑** 22° **↓** 12°
 
 ---
 <!-- WEATHER_END -->
