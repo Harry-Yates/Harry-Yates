@@ -3,10 +3,10 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *Expect partly cloudy conditions with clear spells*
 
-# 21°
+# 22°
 ☁️ **Mostly clear with a few clouds**
 
-**↑** 21° **↓** 13°
+**↑** 22° **↓** 13°
 
 ---
 <!-- WEATHER_END -->
