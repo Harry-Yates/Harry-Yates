@@ -3,10 +3,10 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *The day will start with clear sky through the late morning hours, transitioning to partly cloudy*
 
-# 11°
+# 12°
 ☀️ **Clear skies with excellent visibility**
 
-**↑** 22° **↓** 11°
+**↑** 22° **↓** 12°
 
 ---
 <!-- WEATHER_END -->
