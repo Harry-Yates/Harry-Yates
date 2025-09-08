@@ -6,7 +6,7 @@ Based in Stockholm · *There will be clear sky until morning, then partly cloudy
 # 12°
 ☀️ **Clear skies with excellent visibility**
 
-**↑** 23° **↓** 12°
+**↑** 22° **↓** 12°
 
 ---
 <!-- WEATHER_END -->
