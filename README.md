@@ -3,10 +3,11 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *There will be clear sky until morning, then partly cloudy*
 
-# 20°
-☁️ **Partly cloudy with scattered cloud cover**
+# 19°
+☁️ **Mostly cloudy with broken cloud formations**
 
-**↑** 22° **↓** 11°
+**↑** 21° **↓** 11°  
+**UV** 3
 
 ---
 <!-- WEATHER_END -->
