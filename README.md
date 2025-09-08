@@ -7,7 +7,7 @@ Based in Stockholm · *There will be clear sky until morning, then partly cloudy
 🌫️ **Misty conditions with reduced visibility**
 
 **↑** 21° **↓** 11°  
-**Visibility** 2.2 km
+**Visibility** 1.9 km
 
 ---
 <!-- WEATHER_END -->
