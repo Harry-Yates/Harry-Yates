@@ -1,13 +1,13 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *There will be clear sky until morning, then partly cloudy*
+Based in Stockholm · *Expect partly cloudy conditions with rain*
 
 # 16°
 🌫️ **Misty conditions with reduced visibility**
 
-**↑** 21° **↓** 11°  
-**Visibility** 2.0 km
+**↑** 22° **↓** 12°  
+**Rain** 25%
 
 ---
 <!-- WEATHER_END -->
