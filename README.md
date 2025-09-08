@@ -3,10 +3,11 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *There will be clear sky until morning, then partly cloudy*
 
-# 12°
-☀️ **Clear skies with excellent visibility**
+# 11°
+🌫️ **Misty conditions with reduced visibility**
 
-**↑** 22° **↓** 12°
+**↑** 22° **↓** 11°  
+**Visibility** 4.5 km
 
 ---
 <!-- WEATHER_END -->
