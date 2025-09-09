@@ -7,7 +7,7 @@ Based in Stockholm · *Expect partly cloudy conditions with clear spells*
 🌫️ **Foggy conditions with significantly reduced visibility**
 
 **↑** 22° **↓** 14°  
-**Visibility** 0.3 km
+**Visibility** 0.5 km
 
 ---
 <!-- WEATHER_END -->
