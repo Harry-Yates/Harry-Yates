@@ -3,7 +3,7 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *There will be partly cloudy until morning, then clearing*
 
-# 16°
+# 15°
 ☀️ **Clear skies with excellent visibility**
 
 **↑** 21° **↓** 14°
