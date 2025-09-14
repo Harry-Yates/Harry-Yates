@@ -6,7 +6,7 @@ Based in Stockholm · *Expect partly cloudy conditions with rain*
 # 15°
 ☁️ **Overcast conditions with complete cloud cover**
 
-**↑** 19° **↓** 13°  
+**↑** 17° **↓** 11°  
 **Rain** 100%
 
 ---
