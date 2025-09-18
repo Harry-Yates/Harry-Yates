@@ -6,7 +6,7 @@ Based in Stockholm · *Expect partly cloudy conditions with clear spells*
 # 14°
 🌧️ **Light drizzle with minimal accumulation**
 
-**↑** 15° **↓** 11°  
+**↑** 16° **↓** 11°  
 **Rain** 34%
 
 ---
