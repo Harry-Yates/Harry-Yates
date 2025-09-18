@@ -4,7 +4,7 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *The day will start with clear sky through the late morning hours, transitioning to partly cloudy*
 
 # 14°
-☁️ **Overcast conditions with complete cloud cover**
+☁️ **Mostly cloudy with broken cloud formations**
 
 **↑** 16° **↓** 11°  
 **Rain** 34%
