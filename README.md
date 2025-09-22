@@ -7,7 +7,6 @@ Based in Stockholm · *Expect partly cloudy conditions with rain*
 ☁️ **Mostly cloudy with broken cloud formations**
 
 **↑** 17° **↓** 10°  
-**Feels** 7°  
 **Rain** 37%
 
 ---
