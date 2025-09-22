@@ -6,7 +6,7 @@ Based in Stockholm · *Expect partly cloudy conditions with clear spells*
 # 14°
 ☀️ **Clear skies with excellent visibility**
 
-**↑** 15° **↓** 10°
+**↑** 14° **↓** 10°
 
 ---
 <!-- WEATHER_END -->
