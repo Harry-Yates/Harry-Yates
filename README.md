@@ -3,8 +3,8 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *You can expect partly cloudy in the morning, with clearing in the afternoon*
 
-# 7°
-☁️ **Mostly cloudy with broken cloud formations**
+# 6°
+☁️ **Partly cloudy with scattered cloud cover**
 
 **↑** 13° **↓** 4°
 
