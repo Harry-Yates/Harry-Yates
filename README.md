@@ -1,12 +1,12 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *Expect partly cloudy conditions with clear spells*
+Based in Stockholm · *You can expect clear sky in the morning, with partly cloudy in the afternoon*
 
-# 8°
+# 7°
 ☀️ **Clear skies with excellent visibility**
 
-**↑** 13° **↓** 7°
+**↑** 13° **↓** 6°
 
 ---
 <!-- WEATHER_END -->
