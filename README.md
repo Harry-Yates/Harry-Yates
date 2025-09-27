@@ -7,7 +7,7 @@ Based in Stockholm · *There will be partly cloudy today*
 🌫️ **Foggy conditions with significantly reduced visibility**
 
 **↑** 17° **↓** 4°  
-**Visibility** 0.3 km
+**Visibility** 0.2 km
 
 ---
 <!-- WEATHER_END -->
