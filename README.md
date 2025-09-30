@@ -1,12 +1,12 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *You can expect partly cloudy in the morning, with rain in the afternoon*
+Based in Stockholm · *There will be partly cloudy today*
 
-# 7°
+# 8°
 ☁️ **Overcast conditions with complete cloud cover**
 
-**↑** 12° **↓** 7°
+**↑** 13° **↓** 7°
 
 ---
 <!-- WEATHER_END -->
