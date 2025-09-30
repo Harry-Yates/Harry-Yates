@@ -4,10 +4,11 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *There will be rain until morning, then partly cloudy*
 
 # 3°
-☁️ **Mostly clear with a few clouds**
+🌫️ **Foggy conditions with significantly reduced visibility**
 
 **↑** 13° **↓** 3°  
-**Rain** 40%
+**Rain** 40%  
+**Visibility** 0.5 km
 
 ---
 <!-- WEATHER_END -->
