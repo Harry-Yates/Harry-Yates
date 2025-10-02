@@ -7,7 +7,7 @@ Based in Stockholm · *You can expect partly cloudy in the morning, with clearin
 🌫️ **Foggy conditions with significantly reduced visibility**
 
 **↑** 13° **↓** 4°  
-**Visibility** 2.0 km
+**Visibility** 0.3 km
 
 ---
 <!-- WEATHER_END -->
