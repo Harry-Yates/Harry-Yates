@@ -6,7 +6,7 @@ Based in Stockholm · *You can expect partly cloudy in the morning, with rain in
 # 8°
 ☁️ **Mostly cloudy with broken cloud formations**
 
-**↑** 11° **↓** 7°  
+**↑** 11° **↓** 8°  
 **Feels** 5°  
 **Rain** 100%
 
