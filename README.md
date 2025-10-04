@@ -4,7 +4,7 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *The day will start with partly cloudy through the late morning hours, transitioning to rain*
 
 # 8°
-🌧️ **Moderate rainfall with steady precipitation**
+🌧️ **Light rain with minimal accumulation**
 
 **↑** 11° **↓** 7°  
 **Feels** 4°  
