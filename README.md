@@ -1,7 +1,7 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *Expect partly cloudy conditions with rain*
+Based in Stockholm · *The day will start with partly cloudy through the late morning hours, transitioning to rain*
 
 # 12°
 🌧️ **Light rain with minimal accumulation**
