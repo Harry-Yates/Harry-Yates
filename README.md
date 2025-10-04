@@ -3,11 +3,11 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *The day will start with partly cloudy through the late morning hours, transitioning to rain*
 
-# 9°
+# 8°
 ☁️ **Overcast conditions with complete cloud cover**
 
 **↑** 11° **↓** 7°  
-**Feels** 6°  
+**Feels** 4°  
 **Rain** 100%
 
 ---
