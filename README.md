@@ -1,10 +1,10 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *The day will start with partly cloudy through the late morning hours, transitioning to rain*
+Based in Stockholm · *You can expect partly cloudy in the morning, with rain in the afternoon*
 
 # 11°
-☁️ **Overcast conditions with complete cloud cover**
+☁️ **Mostly cloudy with broken cloud formations**
 
 **↑** 11° **↓** 7°  
 **Rain** 100%
