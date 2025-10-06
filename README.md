@@ -6,7 +6,7 @@ Based in Stockholm · *You can expect partly cloudy in the morning, with clearin
 # 10°
 ☁️ **Mostly clear with a few clouds**
 
-**↑** 16° **↓** 8°
+**↑** 15° **↓** 8°
 
 ---
 <!-- WEATHER_END -->
