@@ -3,10 +3,10 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *Expect partly cloudy conditions with rain*
 
-# 14°
-☁️ **Overcast conditions with complete cloud cover**
+# 13°
+☁️ **Mostly cloudy with broken cloud formations**
 
-**↑** 16° **↓** 10°  
+**↑** 15° **↓** 10°  
 **Rain** 100%
 
 ---
