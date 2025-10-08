@@ -4,9 +4,9 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *There will be rain until morning, then partly cloudy*
 
 # 13°
-🌧️ **Light drizzle with minimal accumulation**
+☁️ **Overcast conditions with complete cloud cover**
 
-**↑** 15° **↓** 10°  
+**↑** 16° **↓** 10°  
 **Rain** 100%
 
 ---
