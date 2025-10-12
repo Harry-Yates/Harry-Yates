@@ -6,8 +6,7 @@ Based in Stockholm · *The day will start with partly cloudy through the late mo
 # 7°
 ☀️ **Clear skies with excellent visibility**
 
-**↑** 12° **↓** 7°  
-**Feels** 4°
+**↑** 12° **↓** 7°
 
 ---
 <!-- WEATHER_END -->
