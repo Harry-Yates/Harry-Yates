@@ -1,12 +1,12 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · *The day will start with partly cloudy through the late morning hours, transitioning to clearing*
+Based in Stockholm · *Expect partly cloudy conditions with clear spells*
 
-# 12°
-☀️ **Clear skies with excellent visibility**
+# 11°
+☁️ **Partly cloudy with scattered cloud cover**
 
-**↑** 12° **↓** 8°
+**↑** 11° **↓** 8°
 
 ---
 <!-- WEATHER_END -->
