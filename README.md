@@ -3,10 +3,10 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *There will be partly cloudy today*
 
-# 2°
+# 3°
 ☁️ **Overcast conditions with complete cloud cover**
 
-**↑** 9° **↓** 2°
+**↑** 9° **↓** 3°
 
 ---
 <!-- WEATHER_END -->
