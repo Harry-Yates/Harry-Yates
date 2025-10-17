@@ -1,7 +1,14 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm. Weather data temporarily unavailable.
+Based in Stockholm · *Expect partly cloudy conditions with clear spells*
+
+# -1°
+☀️ **Clear skies with excellent visibility**
+
+**↑** 8° **↓** -1°
+
+---
 <!-- WEATHER_END -->
 
 <p align="left">
