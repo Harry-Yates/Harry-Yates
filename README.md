@@ -4,9 +4,10 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *Expect partly cloudy conditions with clear spells*
 
 # 4°
-☁️ **Mostly cloudy with broken cloud formations**
+☁️ **Partly cloudy with scattered cloud cover**
 
-**↑** 7° **↓** 1°
+**↑** 7° **↓** 1°  
+**Feels** 1°
 
 ---
 <!-- WEATHER_END -->
