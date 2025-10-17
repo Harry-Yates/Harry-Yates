@@ -3,11 +3,11 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *Expect partly cloudy conditions with rain*
 
-# 6°
+# 5°
 ☁️ **Mostly cloudy with broken cloud formations**
 
 **↑** 7° **↓** 1°  
-**Feels** 3°
+**Feels** 2°
 
 ---
 <!-- WEATHER_END -->
