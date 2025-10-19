@@ -6,7 +6,7 @@ Based in Stockholm · *There will be partly cloudy today*
 # 7°
 ☁️ **Overcast conditions with complete cloud cover**
 
-**↑** 10° **↓** 0°
+**↑** 10° **↓** 1°
 
 ---
 <!-- WEATHER_END -->
