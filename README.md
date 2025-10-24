@@ -7,8 +7,7 @@ Based in Stockholm · *Expect partly cloudy conditions with rain*
 🌫️ **Misty conditions with reduced visibility**
 
 **↑** 12° **↓** 10°  
-**Rain** 100%  
-**Visibility** 2.0 km
+**Rain** 100%
 
 ---
 <!-- WEATHER_END -->
