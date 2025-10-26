@@ -6,7 +6,8 @@ Based in Stockholm · *There will be partly cloudy today*
 # 8°
 🌧️ **Moderate rainfall with steady precipitation**
 
-**↑** 10° **↓** 5°
+**↑** 10° **↓** 5°  
+**Visibility** 3.5 km
 
 ---
 <!-- WEATHER_END -->
