@@ -4,7 +4,7 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *Expect partly cloudy conditions with rain*
 
 # 8°
-☁️ **Partly cloudy with scattered cloud cover**
+☁️ **Mostly clear with a few clouds**
 
 **↑** 8° **↓** 5°  
 **Rain** 100%
