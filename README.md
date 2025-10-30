@@ -7,7 +7,6 @@ Based in Stockholm · *There will be partly cloudy until morning, then rain*
 🌧️ **Steady drizzle conditions**
 
 **↑** 10° **↓** 4°  
-**Feels** 5°  
 **Rain** 100%
 
 ---
