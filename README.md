@@ -3,10 +3,10 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *There will be partly cloudy until morning, then rain*
 
-# 10°
-🌧️ **Moderate rainfall with steady precipitation**
+# 9°
+🌧️ **Light rain with minimal accumulation**
 
-**↑** 10° **↓** 4°  
+**↑** 9° **↓** 4°  
 **Rain** 100%
 
 ---
