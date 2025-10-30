@@ -7,7 +7,6 @@ Based in Stockholm · *There will be partly cloudy until morning, then rain*
 🌧️ **Light rain with minimal accumulation**
 
 **↑** 10° **↓** 5°  
-**Feels** 4°  
 **Rain** 100%
 
 ---
