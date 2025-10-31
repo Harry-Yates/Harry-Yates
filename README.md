@@ -7,7 +7,7 @@ Based in Stockholm · *There will be rain until morning, then partly cloudy*
 ☁️ **Overcast conditions with complete cloud cover**
 
 **↑** 9° **↓** 4°  
-**Feels** 3°  
+**Feels** 2°  
 **Rain** 100%
 
 ---
