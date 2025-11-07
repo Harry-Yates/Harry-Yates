@@ -4,7 +4,7 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm · *There will be partly cloudy today*
 
 # 10°
-🌧️ **Moderate rainfall with steady precipitation**
+☁️ **Partly cloudy with scattered cloud cover**
 
 **↑** 12° **↓** 8°
 
