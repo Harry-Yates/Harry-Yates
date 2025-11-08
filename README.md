@@ -3,10 +3,10 @@ Portfolio · [harryyates.com](https://harryyates.com)
 <!-- WEATHER_START -->
 Based in Stockholm · *There will be partly cloudy today*
 
-# 7°
+# 6°
 🌫️ **Foggy conditions with significantly reduced visibility**
 
-**↑** 9° **↓** 5°  
+**↑** 8° **↓** 5°  
 **Visibility** 0.3 km
 
 ---
