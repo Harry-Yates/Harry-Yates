@@ -213,34 +213,22 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		const isDay = details.currentTime > details.sunrise && details.currentTime < details.sunset;
 		if (isDay) {
 			const sunsetTime = formatSunTime(details.sunset, details.timezoneOffset);
-			conditionSentence += `. Sunset at ${sunsetTime}`;
+			conditionSentence += `, sunset at ${sunsetTime}`;
 		} else {
 			const sunriseTime = formatSunTime(details.sunrise, details.timezoneOffset);
-			conditionSentence += `. Sunrise at ${sunriseTime}`;
+			conditionSentence += `, sunrise at ${sunriseTime}`;
 		}
 	}
 
-	message += `${getWeatherEmoji(description)} **${conditionSentence}.**\n\n`;
+	conditionSentence += '.';
+
+	message += `${getWeatherEmoji(description)} **${conditionSentence}**\n\n`;
 
 	// Key metrics in a clean grid-like format
 	let metrics = [];
 
 	// Temperature range
 	metrics.push(`**↑** ${details.tempMax}° **↓** ${details.tempMin}°`);
-
-	// Add sunset or sunrise based on time of day
-	if (details.sunrise && details.sunset && details.currentTime && details.timezoneOffset !== undefined) {
-		const isDay = details.currentTime > details.sunrise && details.currentTime < details.sunset;
-		if (isDay) {
-			// Show sunset during the day
-			const sunsetTime = formatSunTime(details.sunset, details.timezoneOffset);
-			metrics.push(`**Sunset** ${sunsetTime}`);
-		} else {
-			// Show sunrise at night
-			const sunriseTime = formatSunTime(details.sunrise, details.timezoneOffset);
-			metrics.push(`**Sunrise** ${sunriseTime}`);
-		}
-	}
 
 	// Add wind if notable (>15 km/h)
 	if (details.windSpeed >= 15) {

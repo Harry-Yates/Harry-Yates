@@ -4,10 +4,9 @@ Portfolio · [harryyates.com](https://harryyates.com)
 Based in Stockholm
 
 # 6°
-☁️ **Currently mostly cloudy with broken cloud formations.**
+☁️ **Currently mostly cloudy with broken cloud formations, sunset at 3:33 PM.**
 
-**↑** 6° **↓** 4°  
-**Sunset** 3:33 PM
+**↑** 6° **↓** 4°
 
 ---
 <!-- WEATHER_END -->
