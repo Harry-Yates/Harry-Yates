@@ -6,7 +6,7 @@ Based in Stockholm · *There will be partly cloudy today*
 # 6°
 ☁️ **Mostly cloudy with broken cloud formations**
 
-**↑** 6° **↓** 5°
+**↑** 6° **↓** 4°
 
 ---
 <!-- WEATHER_END -->
