@@ -1,8 +1,6 @@
-Portfolio · [harryyates.com](https://harryyates.com)
+Portfolio · [harryyates.com](https://harryyates.com) · Based in Stockholm
 
 <!-- WEATHER_START -->
-Based in Stockholm
-
 # 6°
 ☁️ **Currently mostly cloudy with broken cloud formations, sunset at 3:33 PM.**
 

@@ -194,11 +194,8 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	};
 
 	// Build cleaner weather report
-	// Location only - no time (looks broken/confusing)
-	let message = `Based in ${cityName}\n\n`;
-	
-	// Main temperature as the hero element
-	message += `# ${temperature}°\n`;
+	// Start directly with temperature - location is in main header
+	let message = `# ${temperature}°\n`;
 
 	// Current condition with emoji - make it a proper sentence with feels like and sunset/sunrise
 	let conditionSentence = `Currently ${weatherDesc}`;
@@ -227,8 +224,12 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	// Key metrics in a clean grid-like format
 	let metrics = [];
 
-	// Temperature range
-	metrics.push(`**↑** ${details.tempMax}° **↓** ${details.tempMin}°`);
+	// Temperature range with UV if moderate or higher
+	let tempLine = `**↑** ${details.tempMax}° **↓** ${details.tempMin}°`;
+	if (details.uvi >= 3) {
+		tempLine += `, **UV** ${Math.round(details.uvi)}`;
+	}
+	metrics.push(tempLine);
 
 	// Add wind if notable (>15 km/h)
 	if (details.windSpeed >= 15) {
