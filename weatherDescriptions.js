@@ -133,19 +133,42 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	// Function to fix common grammar issues in forecasts
 	const fixForecastGrammar = (summary) => {
 		if (!summary) return '';
-		
+
 		// Fix common grammatical issues
 		let fixed = summary
+			// Fix "There will be partly cloudy today" -> "Partly cloudy conditions expected today"
+			.replace(/There will be partly cloudy today/gi, 'Partly cloudy conditions expected today')
+			.replace(/There will be mostly cloudy today/gi, 'Mostly cloudy conditions expected today')
+			.replace(/There will be overcast today/gi, 'Overcast conditions expected today')
+			.replace(/There will be clear today/gi, 'Clear skies expected today')
+			// Fix other variations without "today"
+			.replace(/There will be partly cloudy/gi, 'Expect partly cloudy conditions')
+			.replace(/There will be mostly cloudy/gi, 'Expect mostly cloudy conditions')
+			.replace(/There will be overcast/gi, 'Expect overcast conditions')
+			.replace(/There will be clear/gi, 'Expect clear skies')
+			// Fix missing "skies" or "conditions"
+			.replace(/It will be partly cloudy today/gi, 'Partly cloudy conditions expected today')
+			.replace(/It will be mostly cloudy today/gi, 'Mostly cloudy conditions expected today')
+			.replace(/It will be overcast today/gi, 'Overcast conditions expected today')
+			.replace(/It will be clear today/gi, 'Clear skies expected today')
+			// Fix "Expect a day of X"
 			.replace(/Expect a day of partly cloudy/gi, 'Expect partly cloudy conditions')
 			.replace(/Expect a day of overcast/gi, 'Expect overcast conditions')
 			.replace(/Expect a day of clear/gi, 'Expect clear skies')
 			.replace(/Expect a day of mostly cloudy/gi, 'Expect mostly cloudy conditions')
+			// Fix standalone weather terms
 			.replace(/partly cloudy with/gi, 'partly cloudy conditions with')
 			.replace(/overcast with/gi, 'overcast conditions with')
 			.replace(/clear with/gi, 'clear skies with')
 			.replace(/mostly cloudy with/gi, 'mostly cloudy conditions with')
-			.replace(/Expect a day of (.+) with (.+)/gi, 'Expect $1 conditions with $2');
-			
+			// General pattern fixes
+			.replace(/Expect a day of (.+) with (.+)/gi, 'Expect $1 conditions with $2')
+			// Fix "You can expect X" patterns
+			.replace(/You can expect partly cloudy/gi, 'Expect partly cloudy conditions')
+			.replace(/You can expect mostly cloudy/gi, 'Expect mostly cloudy conditions')
+			.replace(/You can expect overcast/gi, 'Expect overcast conditions')
+			.replace(/You can expect clear/gi, 'Expect clear skies');
+
 		// Ensure first letter is capitalised
 		return fixed.charAt(0).toUpperCase() + fixed.slice(1);
 	};
