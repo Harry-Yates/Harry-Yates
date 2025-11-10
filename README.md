@@ -1,4 +1,4 @@
-Portfolio · [harryyates.com](https://harryyates.com) · Based in Stockholm
+Based in Stockholm · Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
 # 6°
