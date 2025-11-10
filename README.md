@@ -1,10 +1,13 @@
 Based in Stockholm · Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-# 6°
-☁️ **Currently mostly cloudy with broken cloud formations, sunset at 3:33 PM.**
+Stockholm 6° ☁️ · London 13° 🌧️
 
-**↑** 6° **↓** 4°
+# 6°
+☁️ **This afternoon, mostly cloudy with broken cloud formations, sunset at 3:33 PM.** · 🟢 Usually online
+
+**↑** 6° **↓** 4° · Tomorrow: ☁️ 7°  
+Week: ▄▅▆█▂▁▁ (1° to 11°)
 
 ---
 <!-- WEATHER_END -->

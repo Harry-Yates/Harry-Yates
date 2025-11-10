@@ -6,25 +6,37 @@ require("dotenv").config();
 const getWeatherMessage = require("./weatherDescriptions.js");
 const cities = require("./cities.js");
 
-/// SET CITY HERE
+/// SET CITIES HERE
 const currentCity = cities.Sweden.Stockholm;
+const secondaryCity = cities.United_Kingdom.London; // For comparison
+
+const fetchCityWeather = async (city) => {
+  const apiKey = process.env.OPEN_WEATHER;
+  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${city.lat}&lon=${city.lon}&units=metric&appid=${apiKey}`;
+
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch weather for ${city.name}`);
+  }
+  return response.json();
+};
 
 const fetchWeather = async () => {
-  const apiKey = process.env.OPEN_WEATHER;
-  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${currentCity.lat}&lon=${currentCity.lon}&units=metric&appid=${apiKey}`;
-  console.log("URL being fetched:", url);
+  console.log("Fetching weather data...");
 
   try {
-    console.log("Fetching weather data...");
-    const response = await fetch(url);
-    console.log(`Response status: ${response.status}`);
-    if (!response.ok) {
-      console.error(
-        `API call failed with status: ${response.status} ${response.statusText}`
-      );
-      return `Based in ${currentCity.name}. Weather data temporarily unavailable.`;
+    // Fetch primary city weather
+    const data = await fetchCityWeather(currentCity);
+
+    // Fetch secondary city weather if configured
+    let secondaryData = null;
+    if (secondaryCity) {
+      try {
+        secondaryData = await fetchCityWeather(secondaryCity);
+      } catch (e) {
+        console.error(`Failed to fetch secondary city: ${e.message}`);
+      }
     }
-    const data = await response.json();
 
     // Extract comprehensive weather data
     const current = data.current;
@@ -54,6 +66,14 @@ const fetchWeather = async () => {
     const tempMax = Math.round(daily.temp.max);
     const dailySummary = daily.summary || "";
     const precipProbability = Math.round(daily.pop * 100);
+
+    // Tomorrow's forecast
+    const tomorrow = data.daily[1];
+    const tomorrowTemp = Math.round(tomorrow.temp.day);
+    const tomorrowCondition = tomorrow.weather[0].main;
+
+    // Weekly data for graph
+    const weeklyTemps = data.daily.slice(0, 7).map(day => Math.round(day.temp.day));
     
     // Wind direction conversion
     const getWindDirection = (deg) => {
@@ -62,6 +82,16 @@ const fetchWeather = async () => {
       return directions[Math.round(deg / 22.5) % 16];
     };
     
+    // Process secondary city data if available
+    let secondaryCityData = null;
+    if (secondaryData) {
+      secondaryCityData = {
+        name: secondaryCity.name,
+        temp: Math.round(secondaryData.current.temp),
+        condition: secondaryData.current.weather[0].main
+      };
+    }
+
     // Build comprehensive weather message
     const weatherMessage = getWeatherMessage(
       temperature,
@@ -84,7 +114,11 @@ const fetchWeather = async () => {
         timezoneOffset,
         sunrise,
         sunset,
-        currentTime
+        currentTime,
+        tomorrowTemp,
+        tomorrowCondition,
+        weeklyTemps,
+        secondaryCity: secondaryCityData
       }
     );
 

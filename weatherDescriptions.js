@@ -193,33 +193,131 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		return `${displayHours}:${minutes.toString().padStart(2, '0')} ${period}`;
 	};
 
-	// Build cleaner weather report
-	// Start directly with temperature - location is in main header
-	let message = `# ${temperature}°\n`;
+	// Get time-based greeting
+	const getTimeBasedGreeting = (currentTime, timezoneOffset) => {
+		const localTime = new Date((currentTime + timezoneOffset) * 1000);
+		const hours = localTime.getUTCHours();
 
-	// Current condition with emoji - make it a proper sentence with feels like and sunset/sunrise
-	let conditionSentence = `Currently ${weatherDesc}`;
+		if (hours >= 5 && hours < 12) return "This morning";
+		if (hours >= 12 && hours < 17) return "This afternoon";
+		if (hours >= 17 && hours < 22) return "This evening";
+		return "Tonight";
+	};
+
+	// Generate minimalist weather graph
+	const generateTempGraph = (temps) => {
+		if (!temps || temps.length === 0) return '';
+
+		const min = Math.min(...temps);
+		const max = Math.max(...temps);
+		const range = max - min || 1;
+
+		const blocks = ['▁', '▂', '▃', '▄', '▅', '▆', '▇', '█'];
+		const graph = temps.map(temp => {
+			const normalized = (temp - min) / range;
+			const index = Math.floor(normalized * (blocks.length - 1));
+			return blocks[index];
+		}).join('');
+
+		return `Week: ${graph} (${min}° to ${max}°)`;
+	};
+
+	// Check if within working hours (9 AM - 6 PM weekdays)
+	const getWorkingHoursIndicator = (currentTime, timezoneOffset) => {
+		const localTime = new Date((currentTime + timezoneOffset) * 1000);
+		const hours = localTime.getUTCHours();
+		const day = localTime.getUTCDay();
+
+		// Weekend
+		if (day === 0 || day === 6) return '';
+
+		// Working hours 9-18 (9 AM - 6 PM)
+		if (hours >= 9 && hours < 18) {
+			return ' · 🟢 Usually online';
+		} else if (hours >= 22 || hours < 7) {
+			return ' · 🔴 Usually offline';
+		}
+		return '';
+	};
+
+	// Check for golden hour
+	const checkGoldenHour = (currentTime, sunrise, sunset) => {
+		if (!sunrise || !sunset) return '';
+
+		const morningGoldenEnd = sunrise + 3600; // 1 hour after sunrise
+		const eveningGoldenStart = sunset - 3600; // 1 hour before sunset
+
+		if (currentTime >= sunrise && currentTime <= morningGoldenEnd) {
+			const remaining = Math.round((morningGoldenEnd - currentTime) / 60);
+			if (remaining > 0) return `. Golden hour for ${remaining} mins`;
+		} else if (currentTime >= eveningGoldenStart && currentTime <= sunset) {
+			const remaining = Math.round((sunset - currentTime) / 60);
+			if (remaining > 0) return `. Golden hour for ${remaining} mins`;
+		}
+		return '';
+	};
+
+	// Get weather emoji
+	const getConditionEmoji = (condition) => {
+		const c = condition.toLowerCase();
+		if (c.includes('clear')) return '☀️';
+		if (c.includes('cloud')) return '☁️';
+		if (c.includes('rain')) return '🌧️';
+		if (c.includes('drizzle')) return '🌦️';
+		if (c.includes('thunder')) return '⛈️';
+		if (c.includes('snow')) return '❄️';
+		if (c.includes('mist') || c.includes('fog')) return '🌫️';
+		return '🌤️';
+	};
+
+	// Build cleaner weather report
+	// Header with city comparison if available
+	let headerLine = '';
+	if (details.secondaryCity) {
+		const secondEmoji = getConditionEmoji(details.secondaryCity.condition);
+		headerLine = `${cityName} ${temperature}° ${getWeatherEmoji(description)} · ${details.secondaryCity.name} ${details.secondaryCity.temp}° ${secondEmoji}\n\n`;
+	}
+
+	// Start with temperature
+	let message = headerLine;
+	message += `# ${temperature}°\n`;
+
+	// Time-based greeting with weather condition
+	const greeting = details.currentTime && details.timezoneOffset !== undefined
+		? getTimeBasedGreeting(details.currentTime, details.timezoneOffset)
+		: 'Currently';
+
+	let conditionSentence = `${greeting}, ${weatherDesc}`;
 
 	// Add feels like to the sentence if significantly different
 	if (Math.abs(temperature - feelsLike) >= 2) {
 		conditionSentence += `, feels like ${feelsLike}°`;
 	}
 
-	// Add sunset or sunrise to the sentence
-	if (details.sunrise && details.sunset && details.currentTime && details.timezoneOffset !== undefined) {
-		const isDay = details.currentTime > details.sunrise && details.currentTime < details.sunset;
-		if (isDay) {
-			const sunsetTime = formatSunTime(details.sunset, details.timezoneOffset);
-			conditionSentence += `, sunset at ${sunsetTime}`;
-		} else {
-			const sunriseTime = formatSunTime(details.sunrise, details.timezoneOffset);
-			conditionSentence += `, sunrise at ${sunriseTime}`;
+	// Add golden hour if applicable
+	const goldenHour = checkGoldenHour(details.currentTime, details.sunrise, details.sunset);
+	if (goldenHour) {
+		conditionSentence += goldenHour;
+	} else {
+		// Add sunset or sunrise if no golden hour
+		if (details.sunrise && details.sunset && details.currentTime && details.timezoneOffset !== undefined) {
+			const isDay = details.currentTime > details.sunrise && details.currentTime < details.sunset;
+			if (isDay) {
+				const sunsetTime = formatSunTime(details.sunset, details.timezoneOffset);
+				conditionSentence += `, sunset at ${sunsetTime}`;
+			} else {
+				const sunriseTime = formatSunTime(details.sunrise, details.timezoneOffset);
+				conditionSentence += `, sunrise at ${sunriseTime}`;
+			}
 		}
 	}
 
 	conditionSentence += '.';
 
-	message += `${getWeatherEmoji(description)} **${conditionSentence}**\n\n`;
+	// Add working hours indicator to the header if available
+	const workingIndicator = getWorkingHoursIndicator(details.currentTime, details.timezoneOffset);
+
+	message += `${getWeatherEmoji(description)} **${conditionSentence}**${workingIndicator}\n\n`;
 
 	// Key metrics in a clean grid-like format
 	let metrics = [];
@@ -229,7 +327,22 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	if (details.uvi >= 3) {
 		tempLine += `, **UV** ${Math.round(details.uvi)}`;
 	}
+
+	// Add tomorrow's teaser
+	if (details.tomorrowTemp && details.tomorrowCondition) {
+		const tomorrowEmoji = getConditionEmoji(details.tomorrowCondition);
+		tempLine += ` · Tomorrow: ${tomorrowEmoji} ${details.tomorrowTemp}°`;
+	}
+
 	metrics.push(tempLine);
+
+	// Add weekly temperature graph
+	if (details.weeklyTemps && details.weeklyTemps.length > 0) {
+		const graph = generateTempGraph(details.weeklyTemps);
+		if (graph) {
+			metrics.push(graph);
+		}
+	}
 
 	// Add wind if notable (>15 km/h)
 	if (details.windSpeed >= 15) {
