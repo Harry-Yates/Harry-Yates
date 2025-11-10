@@ -200,12 +200,24 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	// Main temperature as the hero element
 	message += `# ${temperature}°\n`;
 
-	// Current condition with emoji - make it a proper sentence with feels like if different
+	// Current condition with emoji - make it a proper sentence with feels like and sunset/sunrise
 	let conditionSentence = `Currently ${weatherDesc}`;
 
 	// Add feels like to the sentence if significantly different
 	if (Math.abs(temperature - feelsLike) >= 2) {
 		conditionSentence += `, feels like ${feelsLike}°`;
+	}
+
+	// Add sunset or sunrise to the sentence
+	if (details.sunrise && details.sunset && details.currentTime && details.timezoneOffset !== undefined) {
+		const isDay = details.currentTime > details.sunrise && details.currentTime < details.sunset;
+		if (isDay) {
+			const sunsetTime = formatSunTime(details.sunset, details.timezoneOffset);
+			conditionSentence += `. Sunset at ${sunsetTime}`;
+		} else {
+			const sunriseTime = formatSunTime(details.sunrise, details.timezoneOffset);
+			conditionSentence += `. Sunrise at ${sunriseTime}`;
+		}
 	}
 
 	message += `${getWeatherEmoji(description)} **${conditionSentence}.**\n\n`;
