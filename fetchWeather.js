@@ -6,9 +6,40 @@ require("dotenv").config();
 const getWeatherMessage = require("./weatherDescriptions.js");
 const cities = require("./cities.js");
 
-/// SET CITIES HERE
-const currentCity = cities.Sweden.Stockholm;
-const secondaryCity = cities.United_Kingdom.London; // For comparison
+/// TRAVEL CONFIGURATION
+// Update these when you travel to a new location
+const travelPeriods = [
+  {
+    start: new Date('2025-11-18'), // Costa Rica trip
+    end: new Date('2026-01-22'),
+    destination: cities.Costa_Rica.SanJose,
+    showHomeAsComparison: true
+  },
+  // Add future trips here:
+  // {
+  //   start: new Date('2026-03-01'),
+  //   end: new Date('2026-06-01'),
+  //   destination: cities.France.Paris,
+  //   showHomeAsComparison: true
+  // }
+];
+
+// Check if currently traveling
+const today = new Date();
+const currentTrip = travelPeriods.find(trip =>
+  today >= trip.start && today <= trip.end
+);
+
+const isTraveling = !!currentTrip;
+const homeCity = cities.Sweden.Stockholm;
+const defaultComparisonCity = cities.United_Kingdom.London;
+
+// Set cities based on travel status
+const currentCity = isTraveling ? currentTrip.destination : homeCity;
+const secondaryCity = isTraveling
+  ? (currentTrip.showHomeAsComparison ? homeCity : defaultComparisonCity)
+  : defaultComparisonCity;
+
 
 const fetchCityWeather = async (city) => {
   const apiKey = process.env.OPEN_WEATHER;
@@ -118,7 +149,8 @@ const fetchWeather = async () => {
         tomorrowTemp,
         tomorrowCondition,
         weeklyTemps,
-        secondaryCity: secondaryCityData
+        secondaryCity: secondaryCityData,
+        isTraveling
       }
     );
 
