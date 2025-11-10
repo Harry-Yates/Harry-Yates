@@ -173,12 +173,32 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		return fixed.charAt(0).toUpperCase() + fixed.slice(1);
 	};
 	
+	// Format time for the location
+	const formatLocalTime = (currentTime, timezoneOffset) => {
+		const localTime = new Date((currentTime + timezoneOffset) * 1000);
+		const hours = localTime.getUTCHours();
+		const minutes = localTime.getUTCMinutes();
+		const period = hours >= 12 ? 'PM' : 'AM';
+		const displayHours = hours === 0 ? 12 : hours > 12 ? hours - 12 : hours;
+		return `${displayHours}:${minutes.toString().padStart(2, '0')} ${period}`;
+	};
+
+	// Format sunrise/sunset time
+	const formatSunTime = (timestamp, timezoneOffset) => {
+		const time = new Date((timestamp + timezoneOffset) * 1000);
+		const hours = time.getUTCHours();
+		const minutes = time.getUTCMinutes();
+		const period = hours >= 12 ? 'PM' : 'AM';
+		const displayHours = hours === 0 ? 12 : hours > 12 ? hours - 12 : hours;
+		return `${displayHours}:${minutes.toString().padStart(2, '0')} ${period}`;
+	};
+
 	// Build cleaner weather report
-	// Location with forecast teaser
+	// Location with local time
 	let message = `Based in ${cityName}`;
-	if (details.dailySummary) {
-		const cleanSummary = fixForecastGrammar(details.dailySummary);
-		message += ` · *${cleanSummary}*`;
+	if (details.currentTime && details.timezoneOffset !== undefined) {
+		const localTime = formatLocalTime(details.currentTime, details.timezoneOffset);
+		message += ` · ${localTime}`;
 	}
 	message += `\n\n`;
 	
@@ -200,21 +220,29 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 
 	// Temperature range
 	metrics.push(`**↑** ${details.tempMax}° **↓** ${details.tempMin}°`);
-	
+
+	// Add sunset or sunrise based on time of day
+	if (details.sunrise && details.sunset && details.currentTime && details.timezoneOffset !== undefined) {
+		const isDay = details.currentTime > details.sunrise && details.currentTime < details.sunset;
+		if (isDay) {
+			// Show sunset during the day
+			const sunsetTime = formatSunTime(details.sunset, details.timezoneOffset);
+			metrics.push(`**🌅** ${sunsetTime}`);
+		} else {
+			// Show sunrise at night
+			const sunriseTime = formatSunTime(details.sunrise, details.timezoneOffset);
+			metrics.push(`**🌅** ${sunriseTime}`);
+		}
+	}
+
+	// Add wind if notable (>15 km/h)
+	if (details.windSpeed >= 15) {
+		metrics.push(`**💨** ${details.windSpeed} km/h ${details.windDirection}`);
+	}
+
 	// Rain probability if significant
 	if (details.precipProbability > 20) {
-		metrics.push(`**Rain** ${details.precipProbability}%`);
-	}
-	
-	// UV if moderate or higher
-	if (details.uvi >= 3) {
-		const uviWarning = details.uvi >= 6 ? ' ⚠️' : '';
-		metrics.push(`**UV** ${details.uvi.toFixed(0)}${uviWarning}`);
-	}
-	
-	// Add visibility only if poor
-	if (details.visibility < 5000) {
-		metrics.push(`**Visibility** ${(details.visibility/1000).toFixed(1)} km`);
+		metrics.push(`**🌧️** ${details.precipProbability}%`);
 	}
 	
 	message += metrics.join('  \n');

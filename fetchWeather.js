@@ -41,6 +41,13 @@ const fetchWeather = async () => {
     const uvi = current.uvi;
     const visibility = current.visibility;
     const clouds = current.clouds;
+
+    // Time-related data
+    const timezone = data.timezone;
+    const timezoneOffset = data.timezone_offset;
+    const sunrise = current.sunrise;
+    const sunset = current.sunset;
+    const currentTime = current.dt;
     
     // Daily forecast data
     const tempMin = Math.round(daily.temp.min);
@@ -72,7 +79,12 @@ const fetchWeather = async () => {
         tempMin,
         tempMax,
         dailySummary,
-        precipProbability
+        precipProbability,
+        timezone,
+        timezoneOffset,
+        sunrise,
+        sunset,
+        currentTime
       }
     );
 
