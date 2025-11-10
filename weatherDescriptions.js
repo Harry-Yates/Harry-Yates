@@ -222,23 +222,6 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		return `Week: ${graph} (${min}° to ${max}°)`;
 	};
 
-	// Check if within working hours (9 AM - 6 PM weekdays)
-	const getWorkingHoursIndicator = (currentTime, timezoneOffset) => {
-		const localTime = new Date((currentTime + timezoneOffset) * 1000);
-		const hours = localTime.getUTCHours();
-		const day = localTime.getUTCDay();
-
-		// Weekend
-		if (day === 0 || day === 6) return '';
-
-		// Working hours 9-18 (9 AM - 6 PM)
-		if (hours >= 9 && hours < 18) {
-			return ' · 🟢 Usually online';
-		} else if (hours >= 22 || hours < 7) {
-			return ' · 🔴 Usually offline';
-		}
-		return '';
-	};
 
 	// Check for golden hour
 	const checkGoldenHour = (currentTime, sunrise, sunset) => {
@@ -314,10 +297,7 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 
 	conditionSentence += '.';
 
-	// Add working hours indicator to the header if available
-	const workingIndicator = getWorkingHoursIndicator(details.currentTime, details.timezoneOffset);
-
-	message += `${getWeatherEmoji(description)} **${conditionSentence}**${workingIndicator}\n\n`;
+	message += `${getWeatherEmoji(description)} **${conditionSentence}**\n\n`;
 
 	// Key metrics in a clean grid-like format
 	let metrics = [];

@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 6° ☁️ · London 13° 🌧️
 
 # 6°
-☁️ **This afternoon, mostly cloudy with broken cloud formations, sunset at 3:33 PM.** · 🟢 Usually online
+☁️ **This afternoon, mostly cloudy with broken cloud formations, sunset at 3:33 PM.**
 
 **↑** 6° **↓** 4° · Tomorrow: ☁️ 7°  
 Week: ▄▅▆█▂▁▁ (1° to 11°)
