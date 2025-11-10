@@ -194,13 +194,8 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	};
 
 	// Build cleaner weather report
-	// Location with local time
-	let message = `Based in ${cityName}`;
-	if (details.currentTime && details.timezoneOffset !== undefined) {
-		const localTime = formatLocalTime(details.currentTime, details.timezoneOffset);
-		message += ` · ${localTime}`;
-	}
-	message += `\n\n`;
+	// Location only - no time (looks broken/confusing)
+	let message = `Based in ${cityName}\n\n`;
 	
 	// Main temperature as the hero element
 	message += `# ${temperature}°\n`;

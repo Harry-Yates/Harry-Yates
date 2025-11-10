@@ -1,7 +1,7 @@
 Portfolio · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Based in Stockholm · 2:07 PM
+Based in Stockholm
 
 # 6°
 ☁️ **Currently mostly cloudy with broken cloud formations.**
