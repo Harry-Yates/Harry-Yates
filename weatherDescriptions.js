@@ -227,22 +227,22 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 		if (isDay) {
 			// Show sunset during the day
 			const sunsetTime = formatSunTime(details.sunset, details.timezoneOffset);
-			metrics.push(`**🌅** ${sunsetTime}`);
+			metrics.push(`**Sunset** ${sunsetTime}`);
 		} else {
 			// Show sunrise at night
 			const sunriseTime = formatSunTime(details.sunrise, details.timezoneOffset);
-			metrics.push(`**🌅** ${sunriseTime}`);
+			metrics.push(`**Sunrise** ${sunriseTime}`);
 		}
 	}
 
 	// Add wind if notable (>15 km/h)
 	if (details.windSpeed >= 15) {
-		metrics.push(`**💨** ${details.windSpeed} km/h ${details.windDirection}`);
+		metrics.push(`**Wind** ${details.windSpeed} km/h ${details.windDirection}`);
 	}
 
 	// Rain probability if significant
 	if (details.precipProbability > 20) {
-		metrics.push(`**🌧️** ${details.precipProbability}%`);
+		metrics.push(`**Rain** ${details.precipProbability}%`);
 	}
 	
 	message += metrics.join('  \n');
