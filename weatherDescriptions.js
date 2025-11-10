@@ -232,10 +232,18 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 
 		if (currentTime >= sunrise && currentTime <= morningGoldenEnd) {
 			const remaining = Math.round((morningGoldenEnd - currentTime) / 60);
-			if (remaining > 0) return `. Golden hour for ${remaining} mins`;
+			if (remaining > 45) return '. Golden hour now';
+			if (remaining > 30) return '. Golden hour for ~45 mins';
+			if (remaining > 15) return '. Golden hour for ~30 mins';
+			if (remaining > 5) return '. Golden hour for ~15 mins';
+			if (remaining > 0) return '. Golden hour ending soon';
 		} else if (currentTime >= eveningGoldenStart && currentTime <= sunset) {
 			const remaining = Math.round((sunset - currentTime) / 60);
-			if (remaining > 0) return `. Golden hour for ${remaining} mins`;
+			if (remaining > 45) return '. Golden hour now';
+			if (remaining > 30) return '. Golden hour for ~45 mins';
+			if (remaining > 15) return '. Golden hour for ~30 mins';
+			if (remaining > 5) return '. Golden hour for ~15 mins';
+			if (remaining > 0) return '. Golden hour ending soon';
 		}
 		return '';
 	};
