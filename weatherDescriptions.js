@@ -184,20 +184,22 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	
 	// Main temperature as the hero element
 	message += `# ${temperature}°\n`;
-	
-	// Current condition with emoji
-	message += `${getWeatherEmoji(description)} **${weatherDesc.charAt(0).toUpperCase() + weatherDesc.slice(1)}**\n\n`;
-	
+
+	// Current condition with emoji - make it a proper sentence with feels like if different
+	let conditionSentence = `Currently ${weatherDesc}`;
+
+	// Add feels like to the sentence if significantly different
+	if (Math.abs(temperature - feelsLike) >= 2) {
+		conditionSentence += `, feels like ${feelsLike}°`;
+	}
+
+	message += `${getWeatherEmoji(description)} **${conditionSentence}.**\n\n`;
+
 	// Key metrics in a clean grid-like format
 	let metrics = [];
-	
+
 	// Temperature range
 	metrics.push(`**↑** ${details.tempMax}° **↓** ${details.tempMin}°`);
-	
-	// Add feels like only if significantly different
-	if (Math.abs(temperature - feelsLike) >= 3) {
-		metrics.push(`**Feels** ${feelsLike}°`);
-	}
 	
 	// Rain probability if significant
 	if (details.precipProbability > 20) {

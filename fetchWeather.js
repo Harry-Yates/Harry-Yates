@@ -22,7 +22,7 @@ const fetchWeather = async () => {
       console.error(
         `API call failed with status: ${response.status} ${response.statusText}`
       );
-      return "Based in Stockholm. Weather data temporarily unavailable.";
+      return `Based in ${currentCity.name}. Weather data temporarily unavailable.`;
     }
     const data = await response.json();
 
@@ -79,7 +79,7 @@ const fetchWeather = async () => {
     return weatherMessage;
   } catch (error) {
     console.error("Error fetching weather data:", error);
-    return "Based in Stockholm. Weather data temporarily unavailable.";
+    return `Based in ${currentCity.name}. Weather data temporarily unavailable.`;
   }
 };
 
