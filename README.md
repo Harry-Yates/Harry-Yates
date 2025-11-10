@@ -1,4 +1,4 @@
-Based in Stockholm · Portfolio · [harryyates.com](https://harryyates.com)
+Based in Stockholm · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
 Stockholm 6° ☁️ · London 13° 🌧️
