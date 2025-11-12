@@ -4,9 +4,9 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 8° ☁️ · London 15° ☁️
 
 # 8°
-☁️ **This morning, mostly cloudy with broken cloud formations, feels like 6°, sunset at 3:29 PM.**
+☁️ **This morning, partly cloudy with scattered cloud cover, feels like 6°, sunset at 3:29 PM.**
 
-**↑** 11° **↓** 6° · Tomorrow: ❄️ 11°  
+**↑** 10° **↓** 6° · Tomorrow: ❄️ 11°  
 Week: ▆█▂▁▁▁▁ (0° to 11°)  
 **Rain** 100%
 
