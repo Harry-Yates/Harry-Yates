@@ -4,11 +4,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 10° 🌧️ · London 15° ☁️
 
 # 10°
-🌧️ **This evening, light drizzle with minimal accumulation, feels like 7°, sunrise at 7:34 AM.**
+🌧️ **This evening, heavy rain with significant accumulation, feels like 6°, sunrise at 7:34 AM.**
 
 **↑** 10° **↓** 6° · Tomorrow: ❄️ 11°  
 Week: ▆█▂▁▁▁▁ (0° to 11°)  
-**Wind** 20 km/h S  
+**Wind** 26 km/h S  
 **Rain** 100%
 
 ---
