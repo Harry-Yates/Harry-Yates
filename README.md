@@ -4,11 +4,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 11° ☁️ · London 14° ☁️
 
 # 11°
-☁️ **This morning, mostly cloudy with broken cloud formations, sunrise at 7:36 AM.**
+☁️ **This morning, mostly clear with a few clouds, sunrise at 7:36 AM.**
 
 **↑** 12° **↓** 3° · Tomorrow: ☀️ 3°  
 Week: █▃▂▂▂▁▁ (-1° to 11°)  
-**Wind** 15 km/h SSW  
+**Wind** 17 km/h SSW  
 **Rain** 100%
 
 ---
