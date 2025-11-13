@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 5° 🌧️ · London 17° ☁️
 
 # 5°
-🌧️ **This afternoon, moderate rainfall with steady precipitation, feels like 2°, sunset at 3:27 PM.**
+🌧️ **This afternoon, light rain with minimal accumulation, feels like 2°. Golden hour for ~45 mins.**
 
 **↑** 11° **↓** 5° · Tomorrow: ☀️ 3°  
 Week: █▃▃▃▁▂▁ (-1° to 9°)  
