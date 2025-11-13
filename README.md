@@ -4,11 +4,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 4° 🌧️ · London 17° ☁️
 
 # 4°
-🌧️ **This afternoon, steady drizzle conditions, feels like 0°. Golden hour for ~15 mins.**
+🌧️ **This afternoon, moderate rainfall with steady precipitation, feels like 0°, sunrise at 7:36 AM.**
 
 **↑** 11° **↓** 4° · Tomorrow: ☀️ 3°  
-Week: █▃▃▃▁▂▁ (-1° to 9°)  
-**Wind** 19 km/h NW  
+Week: █▃▂▂▁▂▁ (-1° to 11°)  
+**Wind** 15 km/h NNW  
 **Rain** 100%
 
 ---
