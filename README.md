@@ -6,8 +6,9 @@ Stockholm 1° ☀️ · London 13° ☁️
 # 1°
 ☀️ **This morning, clear skies with excellent visibility, feels like -3°, sunset at 3:25 PM.**
 
-**↑** 3° **↓** -1° · Tomorrow: ☀️ 2°  
+**↑** 2° **↓** -1° · Tomorrow: ☀️ 2°  
 Week: ▄▆▆█▂▁▄ (-1° to 3°)  
+**Wind** 15 km/h W  
 **Rain** 80%
 
 ---
