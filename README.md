@@ -1,7 +1,7 @@
 Based in Stockholm · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Stockholm 1° ☀️ · London 14° ☁️
+Stockholm 1° ☀️ · London 14° 🌧️
 
 # 1°
 ☀️ **This evening, clear skies with excellent visibility, feels like -4°, sunrise at 7:39 AM.**
