@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -1° ☁️ · London 12° 🌫️
 
 # -1°
-☁️ **This morning, mostly clear with a few clouds, feels like -5°. Golden hour for ~45 mins.**
+☁️ **This morning, mostly clear with a few clouds, feels like -5°. Golden hour for ~15 mins.**
 
 **↑** 2° **↓** -2° · Tomorrow: ☁️ 2°  
 Week: ▁▄▂▁▁█▄ (0° to 4°)
