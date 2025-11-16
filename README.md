@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 3° ☀️ · London 10° ☁️
 
 # 3°
-☀️ **This afternoon, clear skies with excellent visibility, feels like 0°. Golden hour for ~15 mins.**
+☀️ **This afternoon, clear skies with excellent visibility, feels like -1°, sunrise at 7:44 AM.**
 
 **↑** 3° **↓** 0° · Tomorrow: ☁️ 2°  
 Week: █▆▄▆▅▃▁ (-3° to 3°)
