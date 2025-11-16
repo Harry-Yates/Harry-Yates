@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 3° ☁️ · London 10° ☁️
 
 # 3°
-☁️ **This afternoon, mostly clear with a few clouds, feels like 0°, sunrise at 7:44 AM.**
+☁️ **This afternoon, partly cloudy with scattered cloud cover, feels like 0°, sunrise at 7:44 AM.**
 
 **↑** 3° **↓** 0° · Tomorrow: ☁️ 2°  
 Week: ██▅█▆▃▁ (-3° to 2°)
