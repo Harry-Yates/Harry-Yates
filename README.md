@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -1° ☀️ · London 8° ☁️
 
 # -1°
-☀️ **This afternoon, clear skies with excellent visibility, feels like -5°, sunrise at 7:46 AM.**
+☀️ **This afternoon, clear skies with excellent visibility, feels like -4°, sunrise at 7:46 AM.**
 
 **↑** 1° **↓** -3°  
 Week: ▅▃█▃▃▁▃ (-1° to 2°)
