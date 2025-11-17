@@ -4,10 +4,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -4° ☀️ · London 5° ☁️
 
 # -4°
-☀️ **This morning, clear skies with excellent visibility, feels like -7°. Golden hour for ~45 mins.**
+☀️ **This morning, clear skies with excellent visibility, feels like -7°. Golden hour for ~15 mins.**
 
 **↑** 1° **↓** -4°  
-Week: ▄▆█▆▆▁▂ (-3° to 1°)
+Week: ▂▆█▆▆▁▂ (-3° to 1°)
 
 ---
 <!-- WEATHER_END -->
