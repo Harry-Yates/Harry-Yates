@@ -7,7 +7,7 @@ Stockholm 0° ☁️ · London 7° ☁️
 ☁️ **This afternoon, mostly clear with a few clouds, feels like -3°, sunset at 3:19 PM.**
 
 **↑** 1° **↓** -3°  
-Week: ▆▆█▆▆▁▂ (-3° to 1°)
+Week: █▆█▆▆▁▂ (-3° to 1°)
 
 ---
 <!-- WEATHER_END -->
