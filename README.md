@@ -1,13 +1,15 @@
 Based in Stockholm · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-Stockholm -4° ☁️ · London 2° ☁️
+San José 20° ☁️ · Stockholm -5° ☀️
 
-# -4°
-☁️ **Tonight, mostly clear with a few clouds, feels like -6°, sunrise at 7:48 AM.**
+# 20°
+☁️ **This evening, partly cloudy with scattered cloud cover, sunrise at 5:31 AM.**
 
-**↑** 1° **↓** -5° · Tomorrow: ❄️ 2°  
-Week: ▂█▅▃▃▅▁ (-3° to 2°)
+**↑** 27° **↓** 18° · Tomorrow: ☁️ 24°  
+Week: ▃▁▅█▃▁▁ (24° to 27°)  
+**Wind** 20 km/h E  
+**Rain** 100%
 
 ---
 <!-- WEATHER_END -->
