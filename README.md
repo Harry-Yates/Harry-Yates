@@ -1,9 +1,9 @@
 Based in Stockholm · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-San José 23° ☀️ · Stockholm -2° ☁️
+San José 24° ☀️ · Stockholm -2° ☁️
 
-# 23°
+# 24°
 ☀️ **This morning, clear skies with excellent visibility, sunset at 5:11 PM.**
 
 **↑** 25° **↓** 17°, **UV** 9 · Tomorrow: 🌧️ 26°  
