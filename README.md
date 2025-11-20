@@ -7,7 +7,7 @@ San José 20° 🌧️ · Stockholm -2° ☁️
 🌧️ **This morning, steady drizzle conditions, sunset at 5:11 PM.**
 
 **↑** 22° **↓** 19°, **UV** 9 · Tomorrow: 🌧️ 27°  
-Week: ▁█▆▅▃▃▄ (21° to 27°)  
+Week: ▁█▇▆▄▄▅ (20° to 27°)  
 **Rain** 100%
 
 ---
