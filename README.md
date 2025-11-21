@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 18° 🌧️ · Stockholm -2° ☁️
 
 # 18°
-🌧️ **Tonight, moderate rainfall with steady precipitation, sunrise at 5:33 AM.**
+🌧️ **Tonight, light rain with minimal accumulation, sunrise at 5:33 AM.**
 
 **↑** 26° **↓** 16° · Tomorrow: 🌧️ 27°  
 Week: ▄█▆▄▄▁▆ (23° to 27°)  
