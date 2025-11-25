@@ -6,7 +6,7 @@ San José 26° ☁️ · Stockholm -1° ☁️
 # 26°
 ☁️ **This morning, mostly clear with a few clouds, sunset at 5:11 PM.**
 
-**↑** 26° **↓** 18°, **UV** 11 · Tomorrow: 🌧️ 26°  
+**↑** 26° **↓** 18°, **UV** 9 · Tomorrow: 🌧️ 26°  
 Week: ▆▆▁▆▂█▂ (23° to 27°)  
 **Wind** 26 km/h ENE  
 **Rain** 100%
