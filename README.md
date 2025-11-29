@@ -6,8 +6,8 @@ San José 18° ☁️ · Stockholm 7° ☁️
 # 18°
 ☁️ **Tonight, mostly cloudy with broken cloud formations, sunrise at 5:37 AM.**
 
-**↑** 29° **↓** 16° · Tomorrow: 🌧️ 27°  
-Week: █▅▃▁▄▂▅ (23° to 29°)  
+**↑** 29° **↓** 16° · Tomorrow: 🌧️ 28°  
+Week: █▇▄▁▄▃▆ (22° to 29°)  
 **Rain** 100%
 
 ---
