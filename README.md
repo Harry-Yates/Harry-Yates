@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 20° 🌧️ · Stockholm 7° ☁️
 
 # 20°
-🌧️ **This evening, light rain with minimal accumulation. Golden hour ending soon.**
+🌧️ **This evening, light rain with minimal accumulation, sunrise at 5:37 AM.**
 
 **↑** 26° **↓** 18° · Tomorrow: 🌧️ 27°  
 Week: ▅█▅▅▃█▁ (24° to 27°)  
