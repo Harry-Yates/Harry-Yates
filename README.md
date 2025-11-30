@@ -6,8 +6,8 @@ San José 24° 🌧️ · Stockholm 6° ☁️
 # 24°
 🌧️ **This morning, light rain with minimal accumulation, sunset at 5:12 PM.**
 
-**↑** 25° **↓** 19°, **UV** 11 · Tomorrow: 🌧️ 25°  
-Week: ▁▁▁▄███ (25° to 27°)  
+**↑** 24° **↓** 19°, **UV** 11 · Tomorrow: 🌧️ 25°  
+Week: ▁▃▃▅███ (24° to 27°)  
 **Wind** 22 km/h E  
 **Rain** 100%
 
