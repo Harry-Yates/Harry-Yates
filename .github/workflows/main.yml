@@ -26,13 +26,22 @@ jobs:
           echo "Dependencies installed."
 
       - name: Fetch Weather Data
-        working-directory: ./ # Set the working directory to the root of the repository
+        working-directory: ./
         env:
-          OPEN_WEATHER: ${{ secrets.OPEN_WEATHER }} # Use the secret as an environment variable
+          OPEN_WEATHER: ${{ secrets.OPEN_WEATHER }}
         run: |
           echo "Fetching Weather Data..."
           node fetchWeather.js
           echo "Weather Data Fetched."
+
+      - name: Fetch WakaTime Stats
+        working-directory: ./
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          echo "Fetching WakaTime Stats..."
+          node fetchWakaTime.js
+          echo "WakaTime Stats Fetched."
 
       - name: Debugging Information Before Git Operations
         run: |
