@@ -343,9 +343,7 @@ const getWeatherMessage = (temperature, feelsLike, description, cityName, detail
 	}
 	
 	message += metrics.join('  \n');
-	
-	message += `\n\n---`;
-	
+
 	return message;
 };
 

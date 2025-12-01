@@ -11,7 +11,6 @@ Week: ▁▄████▆ (23° to 27°)
 **Wind** 19 km/h E
 **Rain** 100%
 
----
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
