@@ -7,22 +7,21 @@ const getWeatherMessage = require("./weatherDescriptions.js");
 const cities = require("./cities.js");
 
 /// TRAVEL CONFIGURATION
-// Update these when you travel to a new location
-const travelPeriods = [
-  {
-    start: new Date('2025-11-18'), // Costa Rica trip
-    end: new Date('2026-01-22'),
-    destination: cities.Costa_Rica.SanJose,
-    showHomeAsComparison: true
-  },
-  // Add future trips here:
-  // {
-  //   start: new Date('2026-03-01'),
-  //   end: new Date('2026-06-01'),
-  //   destination: cities.France.Paris,
-  //   showHomeAsComparison: true
-  // }
-];
+const travelConfig = require("./travel-config.json");
+
+const travelPeriods = travelConfig.map(trip => {
+  if (!cities[trip.country] || !cities[trip.country][trip.city]) {
+    console.warn(`Warning: City not found for trip to ${trip.city}, ${trip.country}`);
+    return null;
+  }
+  
+  return {
+    start: new Date(trip.start),
+    end: new Date(trip.end),
+    destination: cities[trip.country][trip.city],
+    showHomeAsComparison: trip.showHomeAsComparison
+  };
+}).filter(Boolean);
 
 // Check if currently traveling
 const today = new Date();
