@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 22° 🌧️ · Stockholm 6° ☁️
 
 # 22°
-🌧️ **This afternoon, moderate rainfall with steady precipitation, sunset at 5:13 PM.**
+🌧️ **This afternoon, light rain with minimal accumulation. Golden hour for ~45 mins.**
 
 **↑** 24° **↓** 18° · Tomorrow: 🌧️ 26°  
 Week: ▃▆█▆▆▆▁ (22° to 27°)  
