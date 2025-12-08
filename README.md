@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 18° 🌫️ · Stockholm 7° 🌧️
 
 # 18°
-🌫️ **This morning, foggy conditions with significantly reduced visibility, sunrise at 5:41 AM.**
+🌫️ **This morning, foggy conditions with significantly reduced visibility. Golden hour now.**
 
 **↑** 25° **↓** 16° · Tomorrow: 🌧️ 27°  
 Week: ▅██▁█▅▃ (21° to 27°)  
