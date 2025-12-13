@@ -1,14 +1,14 @@
 Based in Stockholm · [harryyates.com](https://harryyates.com)
 
 <!-- WEATHER_START -->
-San José 21° 🌧️ · Stockholm 4° 🌦️
+San José 20° 🌧️ · Stockholm 4° ☁️
 
-# 21°
-🌧️ **This afternoon, light drizzle with minimal accumulation, sunset at 5:17 PM.**
+# 20°
+🌧️ **This afternoon, moderate rainfall with steady precipitation, sunset at 5:17 PM.**
 
 **↑** 22° **↓** 17°, **UV** 5 · Tomorrow: 🌧️ 26°  
 Week: ▁▆▃▄███ (21° to 28°)  
-**Wind** 17 km/h ENE  
+**Wind** 20 km/h E  
 **Rain** 97%
 <!-- WEATHER_END -->
 
