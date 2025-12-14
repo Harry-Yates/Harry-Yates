@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 21° 🌧️ · Stockholm 9° ☁️
 
 # 21°
-🌧️ **This evening, moderate rainfall with steady precipitation. Golden hour for ~15 mins.**
+🌧️ **This evening, moderate rainfall with steady precipitation, sunrise at 5:44 AM.**
 
 **↑** 26° **↓** 18° · Tomorrow: 🌧️ 25°  
 Week: ▁▄▆▆▂██ (23° to 27°)  
