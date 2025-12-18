@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 17° ☁️ · Stockholm 6° ☁️
 
 # 17°
-☁️ **This morning, partly cloudy with scattered cloud cover, sunrise at 5:46 AM.**
+☁️ **This morning, partly cloudy with scattered cloud cover. Golden hour now.**
 
 **↑** 25° **↓** 17° · Tomorrow: ☀️ 27°  
 Week: ▁▆▆▆▆▆█ (24° to 28°)  
