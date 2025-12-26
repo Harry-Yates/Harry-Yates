@@ -4,11 +4,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 18° ☁️ · Stockholm 3° ☁️
 
 # 18°
-☁️ **This evening, mostly cloudy with broken cloud formations, sunrise at 5:50 AM.**
+☁️ **Tonight, mostly clear with a few clouds, sunrise at 5:50 AM.**
 
 **↑** 24° **↓** 18° · Tomorrow: 🌧️ 24°  
 Week: ▁▂▆▆█▆▅ (23° to 28°)  
-**Wind** 19 km/h E
+**Wind** 20 km/h E
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
