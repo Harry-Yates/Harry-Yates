@@ -8,7 +8,7 @@ San José 24° ☀️ · Stockholm -1° ☀️
 
 **↑** 24° **↓** 17°, **UV** 11 · Tomorrow: 🌧️ 26°  
 Week: ▄▆▁▁▆▅█ (20° to 28°)  
-**Wind** 22 km/h ESE  
+**Wind** 24 km/h NE  
 **Rain** 29%
 <!-- WEATHER_END -->
 
