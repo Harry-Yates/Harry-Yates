@@ -6,7 +6,7 @@ San José 24° ☁️ · Stockholm -5° ☀️
 # 24°
 ☁️ **This afternoon, partly cloudy with scattered cloud cover, sunset at 5:25 PM.**
 
-**↑** 24° **↓** 19°, **UV** 6 · Tomorrow: ☁️ 23°  
+**↑** 24° **↓** 19° · Tomorrow: ☁️ 23°  
 Week: ▄▄▅▁█▆▇ (20° to 27°)  
 **Wind** 30 km/h ESE
 <!-- WEATHER_END -->
