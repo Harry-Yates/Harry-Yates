@@ -4,11 +4,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 20° 🌧️ · Stockholm -3° ☁️
 
 # 20°
-🌧️ **This afternoon, light rain with minimal accumulation. Golden hour for ~45 mins.**
+🌧️ **This evening, light rain with minimal accumulation. Golden hour for ~15 mins.**
 
 **↑** 24° **↓** 19° · Tomorrow: 🌧️ 28°  
 Week: ▁▇█▅▆█▇ (22° to 29°)  
-**Wind** 24 km/h E  
+**Wind** 30 km/h ESE  
 **Rain** 54%
 <!-- WEATHER_END -->
 
