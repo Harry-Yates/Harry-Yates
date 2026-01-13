@@ -7,7 +7,7 @@ San José 17° ☁️ · Stockholm -2° ☁️
 ☁️ **Tonight, mostly clear with a few clouds, sunrise at 5:57 AM.**
 
 **↑** 23° **↓** 14° · Tomorrow: ☁️ 27°  
-Week: ▂▇▇▄█▅▁ (21° to 28°)  
+Week: ▁▆▆▄█▅▄ (22° to 28°)  
 **Wind** 22 km/h E  
 **Rain** 21%
 <!-- WEATHER_END -->
