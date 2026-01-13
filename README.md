@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 21° ☁️ · Stockholm 1° ☁️
 
 # 21°
-☁️ **This afternoon, mostly clear with a few clouds, sunset at 5:32 PM.**
+☁️ **This afternoon, mostly clear with a few clouds. Golden hour now.**
 
 **↑** 23° **↓** 17° · Tomorrow: ☁️ 28°  
 Week: ▁█▆▅▆▅▆ (22° to 28°)  
