@@ -6,7 +6,7 @@ San José 21° ☀️ · Stockholm 0° ☁️
 # 21°
 ☀️ **This morning, clear skies with excellent visibility, sunset at 5:32 PM.**
 
-**↑** 22° **↓** 17°, **UV** 5 · Tomorrow: 🌧️ 28°  
+**↑** 22° **↓** 17°, **UV** 8 · Tomorrow: 🌧️ 28°  
 Week: ▁█▇▆█▅▆ (21° to 28°)  
 **Wind** 33 km/h ENE
 <!-- WEATHER_END -->
