@@ -4,7 +4,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 20° ☁️ · Stockholm 1° ☁️
 
 # 20°
-☁️ **This evening, mostly clear with a few clouds. Golden hour for ~30 mins.**
+☁️ **This evening, mostly clear with a few clouds. Golden hour ending soon.**
 
 **↑** 25° **↓** 17° · Tomorrow: ☀️ 27°  
 Week: ▃▆▁▆▆██ (22° to 28°)  
