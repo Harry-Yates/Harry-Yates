@@ -4,11 +4,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 San José 16° ☀️ · Stockholm 2° ☁️
 
 # 16°
-☀️ **This morning, clear skies with excellent visibility, sunrise at 5:57 AM.**
+☀️ **This morning, clear skies with excellent visibility. Golden hour for ~30 mins.**
 
 **↑** 24° **↓** 16° · Tomorrow: 🌧️ 23°  
 Week: ▁▁▅███▆ (23° to 28°)  
-**Wind** 20 km/h E
+**Wind** 24 km/h E
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
