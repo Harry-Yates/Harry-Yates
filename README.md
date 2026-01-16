@@ -1,4 +1,6 @@
-Based in Stockholm · [harryyates.com](https://harryyates.com)
+<!-- INTRO_START -->
+Based in Stockholm · Currently in Costa Rica · [harryyates.com](https://harryyates.com)
+<!-- INTRO_END -->
 
 <!-- WEATHER_START -->
 San José 19° ☁️ · Stockholm 3° ☁️

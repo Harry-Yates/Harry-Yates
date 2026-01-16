@@ -160,14 +160,42 @@ const fetchWeather = async () => {
   }
 };
 
+const getIntroLine = () => {
+  const base = "Based in Stockholm";
+  const website = "[harryyates.com](https://harryyates.com)";
+
+  if (isTraveling && currentTrip) {
+    // Get country display name from config (replace underscores with spaces)
+    const tripConfig = travelConfig.find(trip =>
+      new Date(trip.start) <= today && new Date(trip.end) >= today
+    );
+    const countryDisplay = tripConfig ? tripConfig.country.replace(/_/g, ' ') : currentCity.name;
+    return `${base} · Currently in ${countryDisplay} · ${website}`;
+  }
+
+  return `${base} · ${website}`;
+};
+
 const updateReadme = async (weatherData) => {
   try {
     const readmePath = path.join(__dirname, "README.md");
-    // console.log(__dirname);
-    // console.log(`Reading README.md from ${readmePath}`);
     let readmeContent = fs.readFileSync(readmePath, "utf8");
 
     console.log(readmeContent);
+
+    // Update intro section
+    const introStartMarker = "<!-- INTRO_START -->";
+    const introEndMarker = "<!-- INTRO_END -->";
+    const introStartIndex = readmeContent.indexOf(introStartMarker) + introStartMarker.length;
+    const introEndIndex = readmeContent.indexOf(introEndMarker);
+
+    if (introStartIndex > 0 && introEndIndex > 0 && introStartIndex < introEndIndex) {
+      const beforeIntro = readmeContent.substring(0, introStartIndex);
+      const afterIntro = readmeContent.substring(introEndIndex);
+      readmeContent = beforeIntro + "\n" + getIntroLine() + "\n" + afterIntro;
+    }
+
+    // Update weather section
     const startMarker = "<!-- WEATHER_START -->";
     const endMarker = "<!-- WEATHER_END -->";
     const startIndex = readmeContent.indexOf(startMarker) + startMarker.length;
@@ -180,10 +208,8 @@ const updateReadme = async (weatherData) => {
     const beforeWeather = readmeContent.substring(0, startIndex);
     const afterWeather = readmeContent.substring(endIndex);
     readmeContent = beforeWeather + "\n" + weatherData + "\n" + afterWeather;
-    // console.log(readmeContent);
-    // console.log("Writing updated weather data to README.md");
+
     fs.writeFileSync(readmePath, readmeContent, "utf8");
-    // console.log("Successfully updated README.md");
   } catch (error) {
     console.error("An error occurred in updateReadme:", error);
     throw error;
