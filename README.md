@@ -3,14 +3,14 @@ Based in Stockholm · Currently in Costa Rica · [harryyates.com](https://harryy
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-San José 19° ☁️ · Stockholm -1° ☁️
+San José 20° ☁️ · Stockholm -1° ☁️
 
-# 19°
-☁️ **This morning, mostly cloudy with broken cloud formations. Golden hour for ~30 mins.**
+# 20°
+☁️ **This morning, mostly cloudy with broken cloud formations, sunset at 5:36 PM.**
 
 **↑** 23° **↓** 19° · Tomorrow: 🌧️ 27°  
-Week: ▁▅▆▇▇█▆ (21° to 30°)  
-**Wind** 30 km/h E  
+Week: ▁▅▆▇▇█▇ (21° to 30°)  
+**Wind** 33 km/h ESE  
 **Rain** 31%
 <!-- WEATHER_END -->
 
