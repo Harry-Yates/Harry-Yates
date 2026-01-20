@@ -6,7 +6,7 @@ Based in Stockholm · Currently in Costa Rica · [harryyates.com](https://harryy
 San José 21° ☁️ · Stockholm -2° ☁️
 
 # 21°
-☁️ **This afternoon, mostly cloudy with broken cloud formations, sunset at 5:36 PM.**
+☁️ **This afternoon, mostly cloudy with broken cloud formations. Golden hour now.**
 
 **↑** 23° **↓** 18° · Tomorrow: 🌧️ 27°  
 Week: ▁▅▆▆▇██ (22° to 30°)  
