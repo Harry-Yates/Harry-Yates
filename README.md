@@ -10,7 +10,7 @@ Stockholm -3° ☁️ · London 8° ☁️
 
 **↑** 0° **↓** -3° · Tomorrow: ❄️ -2°  
 Week: █▆▆▅▃▁▃ (-6° to -1°)  
-**Wind** 19 km/h E
+**Wind** 20 km/h E
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
