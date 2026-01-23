@@ -6,11 +6,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -3° ☁️ · London 7° ☁️
 
 # -3°
-☁️ **Tonight, overcast conditions with complete cloud cover, feels like -9°, sunrise at 8:17 AM.**
+☁️ **This morning, overcast conditions with complete cloud cover, feels like -8°, sunrise at 8:17 AM.**
 
 **↑** -2° **↓** -3° · Tomorrow: ❄️ -2°  
-Week: ██▆▄▁▄▄ (-6° to -2°)  
-**Wind** 19 km/h E
+Week: ██▆▄▁▄▄ (-6° to -2°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
