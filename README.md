@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -2° ❄️ · London 10° ☁️
 
 # -2°
-❄️ **This afternoon, steady snowfall conditions, feels like -6°, sunset at 3:43 PM.**
+❄️ **This afternoon, steady snowfall conditions, feels like -6°. Golden hour now.**
 
 **↑** -2° **↓** -4° · Tomorrow: ☁️ -3°  
 Week: █▇▁▇██▇ (-9° to -2°)  
