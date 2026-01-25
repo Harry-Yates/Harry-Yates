@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -3° ☁️ · London 7° ☁️
 
 # -3°
-☁️ **This morning, overcast conditions with complete cloud cover, feels like -7°. Golden hour now.**
+☁️ **This morning, overcast conditions with complete cloud cover, feels like -7°. Golden hour for ~45 mins.**
 
 **↑** -3° **↓** -6° · Tomorrow: ☁️ -6°  
 Week: ▆▁██▆▆▆ (-6° to -2°)
