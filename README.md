@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -3° ❄️ · London 7° ☁️
 
 # -3°
-❄️ **This afternoon, light snowfall with minimal accumulation, feels like -7°. Golden hour now.**
+❄️ **This afternoon, light snowfall with minimal accumulation, feels like -7°. Golden hour for ~45 mins.**
 
 **↑** -3° **↓** -7° · Tomorrow: ☁️ -6°  
 Week: ▆▁██▆▆█ (-6° to -2°)
