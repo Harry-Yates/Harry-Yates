@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -4° ❄️ · London 7° ☁️
 
 # -4°
-❄️ **This afternoon, light snowfall with minimal accumulation, feels like -7°, sunrise at 8:13 AM.**
+❄️ **This afternoon, light snowfall with minimal accumulation, feels like -8°, sunrise at 8:13 AM.**
 
 **↑** -3° **↓** -7° · Tomorrow: ☁️ -6°  
 Week: ▆▁██▆▆█ (-6° to -2°)
