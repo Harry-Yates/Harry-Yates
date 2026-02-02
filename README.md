@@ -8,8 +8,8 @@ Stockholm -7° ❄️ · London 7° ☁️
 # -7°
 ❄️ **Tonight, light snowfall with minimal accumulation, feels like -11°, sunrise at 7:56 AM.**
 
-**↑** -5° **↓** -10° · Tomorrow: ☁️ -5°  
-Week: ▁▂▅▅█▆▂ (-6° to -1°)
+**↑** -6° **↓** -10° · Tomorrow: ☀️ -5°  
+Week: ▁▂▅▅█▆█ (-6° to -1°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
