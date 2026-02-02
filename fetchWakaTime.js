@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 require("dotenv").config();
 
-const fetchWakaTimeStats = async () => {
+const fetchWakaTimeStats = async (timeRange) => {
   const apiKey = process.env.WAKATIME_API_KEY;
 
   if (!apiKey) {
@@ -14,7 +14,7 @@ const fetchWakaTimeStats = async () => {
   // Base64 encode the API key for Basic auth
   const encoded = Buffer.from(apiKey).toString("base64");
 
-  const url = "https://wakatime.com/api/v1/users/current/stats/all_time";
+  const url = `https://wakatime.com/api/v1/users/current/stats/${timeRange}`;
 
   const response = await fetch(url, {
     headers: {
@@ -92,15 +92,31 @@ const main = async () => {
   console.log("Fetching WakaTime stats...");
 
   try {
-    const data = await fetchWakaTimeStats();
+    // Try last_7_days first
+    console.log("Trying last_7_days stats...");
+    const last7DaysData = await fetchWakaTimeStats("last_7_days");
+    
+    let stats = last7DaysData.data;
+    let languages = stats?.languages || [];
+    let timeRange = "last_7_days";
+    
+    // Check if there's meaningful activity (at least 1 hour of coding)
+    const totalSeconds = stats?.total_seconds || 0;
+    const hasActivity = totalSeconds > 3600; // 1 hour in seconds
+    
+    if (!hasActivity || languages.length === 0) {
+      console.log("Not enough activity in last 7 days, falling back to all_time...");
+      const allTimeData = await fetchWakaTimeStats("all_time");
+      stats = allTimeData.data;
+      languages = stats?.languages || [];
+      timeRange = "all_time";
+    }
 
-    if (!data.data) {
+    if (!stats) {
       throw new Error("No data returned from WakaTime");
     }
 
-    const stats = data.data;
-    const languages = stats.languages || [];
-
+    console.log(`Using ${timeRange} stats`);
     console.log(`Total coding time: ${stats.human_readable_total || "0 hrs"}`);
     console.log(`Languages tracked: ${languages.length}`);
 
