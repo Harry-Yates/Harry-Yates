@@ -9,7 +9,7 @@ Stockholm -6° ☁️ · London 10° ☁️
 ☁️ **This evening, mostly cloudy with broken cloud formations, feels like -11°, sunrise at 7:46 AM.**
 
 **↑** -3° **↓** -6° · Tomorrow: ☁️ -4°  
-Week: ▄▆█▆▅▅▁ (-9° to -2°)  
+Week: ▁▄█▄▄▂█ (-6° to -2°)  
 **Rain** 62%
 <!-- WEATHER_END -->
 
