@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -6° ☁️ · London 10° ☁️
 
 # -6°
-☁️ **This afternoon, mostly clear with a few clouds, feels like -9°, sunrise at 7:42 AM.**
+☁️ **This evening, mostly clear with a few clouds, feels like -9°, sunrise at 7:42 AM.**
 
 **↑** -3° **↓** -9° · Tomorrow: ☁️ -4°  
 Week: ▅▃▁▁█▁▃ (-5° to -2°)
