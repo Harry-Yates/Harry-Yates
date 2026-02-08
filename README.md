@@ -9,7 +9,7 @@ Stockholm -5° ☁️ · London 11° ☁️
 ☁️ **This afternoon, mostly cloudy with broken cloud formations, feels like -9°, sunset at 4:21 PM.**
 
 **↑** -4° **↓** -10° · Tomorrow: ☁️ -4°  
-Week: ▁▂▁▂▆██ (-5° to 1°)
+Week: ▂▂▁▂▆██ (-5° to 1°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
