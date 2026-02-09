@@ -3,7 +3,13 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Based in Stockholm. Weather data temporarily unavailable.
+Stockholm -13° ☁️ · London 8° ☁️
+
+# -13°
+☁️ **Tonight, overcast conditions with complete cloud cover, sunrise at 7:39 AM.**
+
+**↑** -5° **↓** -13° · Tomorrow: ☁️ -5°  
+Week: ▁▅█▅█▅▅ (-7° to -4°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
