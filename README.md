@@ -3,7 +3,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm -5° ❄️ · London 9° ☁️
+Stockholm -5° ❄️ · London 9° 🌧️
 
 # -5°
 ❄️ **This evening, light snowfall with minimal accumulation, feels like -10°, sunrise at 7:34 AM.**
