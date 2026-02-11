@@ -9,7 +9,7 @@ Stockholm -4° ☁️ · London 11° ☁️
 ☁️ **This morning, overcast conditions with complete cloud cover, feels like -7°, sunset at 4:29 PM.**
 
 **↑** -4° **↓** -11° · Tomorrow: ☁️ -5°  
-Week: ▃▃▁▁▁██ (-6° to -3°)
+Week: ▅▃▁▁▁██ (-6° to -3°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
