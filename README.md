@@ -6,10 +6,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -8° ☁️ · London 7° ☁️
 
 # -8°
-☁️ **This morning, partly cloudy with scattered cloud cover, feels like -11°. Golden hour for ~45 mins.**
+☁️ **This morning, mostly cloudy with broken cloud formations, feels like -12°, sunset at 4:32 PM.**
 
-**↑** -4° **↓** -8° · Tomorrow: ☁️ -6°  
-Week: ▃▁▂▁▃▆█ (-6° to 0°)
+**↑** -4° **↓** -8° · Tomorrow: ☁️ -5°  
+Week: ▂▂▁▁▆▆█ (-6° to 0°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
