@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -12° ☀️ · London 5° ☁️
 
 # -12°
-☀️ **This evening, clear skies with excellent visibility, sunrise at 7:13 AM.**
+☀️ **Tonight, clear skies with excellent visibility, sunrise at 7:13 AM.**
 
 **↑** -4° **↓** -12° · Tomorrow: ☁️ -1°  
 Week: ▁▅▆▅▆▅█ (-5° to 1°)
