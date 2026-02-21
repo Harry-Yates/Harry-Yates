@@ -8,8 +8,8 @@ Stockholm 0° ❄️ · London 13° 🌧️
 # 0°
 ❄️ **This evening, steady snowfall conditions, feels like -2°, sunrise at 7:08 AM.**
 
-**↑** 2° **↓** -3° · Tomorrow: ☁️ -2°  
-Week: ▅▁▃▃▅▅█ (-2° to 3°)  
+**↑** 2° **↓** -3°  
+Week: ▃▁▁▁▃▃█ (0° to 3°)  
 **Rain** 100%
 <!-- WEATHER_END -->
 
