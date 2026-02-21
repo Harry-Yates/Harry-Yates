@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 0° ❄️ · London 13° ☁️
 
 # 0°
-❄️ **This evening, steady snowfall conditions, feels like -2°, sunrise at 7:08 AM.**
+❄️ **This evening, light snowfall with minimal accumulation, feels like -2°, sunrise at 7:08 AM.**
 
 **↑** 2° **↓** -3°  
 Week: ▅▃▃▁▃▅█ (-1° to 2°)  
