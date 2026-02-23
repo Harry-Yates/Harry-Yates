@@ -9,8 +9,7 @@ Stockholm 0° ☀️ · London 9° ☁️
 ☀️ **This morning, clear skies with excellent visibility, feels like -4°, sunset at 4:59 PM.**
 
 **↑** 2° **↓** -2°  
-Week: ▁▁▁▄▆██ (0° to 4°)  
-**Wind** 15 km/h ESE
+Week: ▁▁▁▄▆██ (0° to 4°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
