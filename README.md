@@ -6,11 +6,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 1° ☁️ · London 13° 🌧️
 
 # 1°
-☁️ **This afternoon, mostly cloudy with broken cloud formations, feels like -3°, sunset at 4:59 PM.**
+☁️ **This afternoon, mostly cloudy with broken cloud formations, feels like -3°. Golden hour for ~30 mins.**
 
 **↑** 1° **↓** -2°  
 Week: ▂▁▁▅▆▆█ (0° to 5°)  
-**Wind** 15 km/h ESE
+**Wind** 15 km/h SE
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
