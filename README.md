@@ -3,10 +3,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm -2° ☁️ · London 9° ☁️
+Stockholm -1° ☀️ · London 9° ☁️
 
-# -2°
-☁️ **This morning, overcast conditions with complete cloud cover, feels like -5°, sunrise at 7:02 AM.**
+# -1°
+☀️ **This morning, clear skies with excellent visibility, feels like -5°. Golden hour for ~30 mins.**
 
 **↑** 2° **↓** -2°  
 Week: ▃▂▁▅▆█▅ (-1° to 4°)  
