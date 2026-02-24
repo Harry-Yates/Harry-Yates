@@ -8,7 +8,7 @@ Stockholm 0° ❄️ · London 12° ☁️
 # 0°
 ❄️ **This morning, steady snowfall conditions, sunset at 5:02 PM.**
 
-**↑** 2° **↓** -6°  
+**↑** 1° **↓** -6°  
 Week: ▂▁▆█▅▆█ (0° to 6°)  
 **Rain** 100%
 <!-- WEATHER_END -->
