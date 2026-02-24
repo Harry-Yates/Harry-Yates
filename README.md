@@ -6,10 +6,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 0° ❄️ · London 15° ☁️
 
 # 0°
-❄️ **This afternoon, steady snowfall conditions, feels like -3°, sunset at 5:02 PM.**
+❄️ **This afternoon, steady snowfall conditions, feels like -4°, sunset at 5:02 PM.**
 
-**↑** 1° **↓** -6°  
+**↑** 1° **↓** -7°  
 Week: ▁▁▆█▅▆█ (0° to 6°)  
+**Wind** 15 km/h ENE  
 **Rain** 100%
 <!-- WEATHER_END -->
 
