@@ -6,10 +6,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 0° ❄️ · London 11° ☁️
 
 # 0°
-❄️ **This morning, light snowfall with minimal accumulation. Golden hour for ~30 mins.**
+❄️ **This morning, steady snowfall conditions, feels like -2°, sunset at 5:02 PM.**
 
-**↑** 2° **↓** -8°  
-Week: ▁▁▄▅▇▅█ (0° to 9°)  
+**↑** 2° **↓** -6°  
+Week: ▂▁▆█▅▆█ (0° to 6°)  
 **Rain** 100%
 <!-- WEATHER_END -->
 
