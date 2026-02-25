@@ -6,12 +6,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 0° 🌧️ · London 12° ☁️
 
 # 0°
-🌧️ **Tonight, light drizzle with minimal accumulation, feels like -5°, sunrise at 6:57 AM.**
+🌧️ **Tonight, light rain with minimal accumulation, feels like -4°, sunrise at 6:54 AM.**
 
-**↑** 1° **↓** -8° · Tomorrow: 🌧️ 1°  
-Week: ▁▃█▆▆▆▆ (-1° to 5°)  
-**Wind** 17 km/h S  
-**Rain** 80%
+**↑** 7° **↓** 0° · Tomorrow: 🌧️ 5°  
+Week: ▁█▆▆▆▆▂ (1° to 5°)  
+**Rain** 100%
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
