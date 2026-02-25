@@ -6,10 +6,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -8° 🌫️ · London 9° ☀️
 
 # -8°
-🌫️ **This morning, foggy conditions with significantly reduced visibility, sunrise at 6:57 AM.**
+🌫️ **This morning, foggy conditions with significantly reduced visibility, feels like -11°. Golden hour for ~30 mins.**
 
 **↑** 0° **↓** -8° · Tomorrow: 🌧️ 4°  
-Week: ▁▅██▆▆▆ (0° to 6°)  
+Week: ▁▆██▇▇▇ (-2° to 6°)  
 **Rain** 100%
 <!-- WEATHER_END -->
 
