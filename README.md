@@ -8,7 +8,7 @@ Stockholm 2° ☁️ · London 12° ☁️
 # 2°
 ☁️ **This morning, mostly cloudy with broken cloud formations, feels like -2°, sunset at 5:07 PM.**
 
-**↑** 7° **↓** 1° · Tomorrow: 🌧️ 6°  
+**↑** 7° **↓** 2° · Tomorrow: 🌧️ 6°  
 Week: ▂█▆▁▃▆█ (1° to 6°)  
 **Rain** 100%
 <!-- WEATHER_END -->
