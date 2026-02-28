@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 2° 🌫️ · London 6° ☀️
 
 # 2°
-🌫️ **This evening, misty conditions with reduced visibility, feels like -1°, sunrise at 6:48 AM.**
+🌫️ **This evening, foggy conditions with significantly reduced visibility, feels like -1°, sunrise at 6:48 AM.**
 
 **↑** 5° **↓** 2° · Tomorrow: 🌧️ 4°  
 Week: ▃▂▁█▂▂▁ (3° to 8°)  
