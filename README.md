@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 1° 🌧️ · London 7° ☀️
 
 # 1°
-🌧️ **Tonight, heavy rain with significant accumulation, feels like -1°, sunrise at 6:48 AM.**
+🌧️ **Tonight, heavy rain with significant accumulation, feels like -2°, sunrise at 6:48 AM.**
 
 **↑** 5° **↓** 1° · Tomorrow: 🌧️ 4°  
 Week: ▃▂▁█▂▂▁ (3° to 8°)  
