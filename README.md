@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 4° 🌧️ · London 9° ☁️
 
 # 4°
-🌧️ **This morning, light drizzle with minimal accumulation, feels like 1°, sunset at 5:14 PM.**
+🌧️ **This morning, light drizzle with minimal accumulation, feels like 2°, sunset at 5:14 PM.**
 
 **↑** 4° **↓** 1° · Tomorrow: ☀️ 3°  
 Week: ▂▁█▂▁▄▂ (3° to 7°)  
