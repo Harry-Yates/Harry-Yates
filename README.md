@@ -9,8 +9,8 @@ Stockholm 1° 🌧️ · London 11° ☁️
 🌧️ **This evening, light drizzle with minimal accumulation, feels like -3°, sunrise at 6:45 AM.**
 
 **↑** 4° **↓** 1° · Tomorrow: ☀️ 3°  
-Week: ▂▁█▂▁▃▃ (3° to 8°)  
-**Wind** 17 km/h W  
+Week: ▂▁█▂▁▄▆ (3° to 7°)  
+**Wind** 15 km/h W  
 **Rain** 100%
 <!-- WEATHER_END -->
 
