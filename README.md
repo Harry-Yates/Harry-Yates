@@ -9,7 +9,7 @@ Stockholm 9° ☀️ · London 10° ☁️
 ☀️ **This afternoon, clear skies with excellent visibility, feels like 6°, sunset at 5:26 PM.**
 
 **↑** 10° **↓** 1° · Tomorrow: ☁️ 4°  
-Week: █▁▆▆██▆ (4° to 8°)  
+Week: █▁▅▅▆▆▅ (4° to 9°)  
 **Wind** 17 km/h WSW
 <!-- WEATHER_END -->
 
