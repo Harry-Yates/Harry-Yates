@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 4° ☁️ · London 9° ☁️
 
 # 4°
-☁️ **This evening, mostly cloudy with broken cloud formations. Golden hour for ~15 mins.**
+☁️ **This evening, overcast conditions with complete cloud cover, sunrise at 6:28 AM.**
 
 **↑** 6° **↓** 1° · Tomorrow: ☁️ 8°  
 Week: ▁███▃▅▅ (5° to 8°)
