@@ -3,13 +3,13 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 6° 🌧️ · London 9° ☁️
+Stockholm 4° 🌧️ · London 8° ☁️
 
-# 6°
-🌧️ **This afternoon, light rain with minimal accumulation, sunset at 5:29 PM.**
+# 4°
+🌧️ **This afternoon, moderate rainfall with steady precipitation, feels like 2°, sunset at 5:29 PM.**
 
 **↑** 7° **↓** 1° · Tomorrow: ☁️ 7°  
-Week: ▁▄██▄▄▁ (6° to 8°)
+Week: ▁▆██▆▆▄ (4° to 8°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
