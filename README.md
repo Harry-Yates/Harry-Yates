@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm -2° 🌫️ · London 8° 🌫️
 
 # -2°
-🌫️ **Tonight, foggy conditions with significantly reduced visibility, sunrise at 6:25 AM.**
+🌫️ **This morning, foggy conditions with significantly reduced visibility, sunrise at 6:25 AM.**
 
 **↑** 7° **↓** -2° · Tomorrow: 🌧️ 7°  
 Week: ▃▃█▅▃▁▃ (6° to 9°)
