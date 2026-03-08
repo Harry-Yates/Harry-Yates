@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 8° ☀️ · London 8° 🌫️
 
 # 8°
-☀️ **This morning, clear skies with excellent visibility, sunset at 5:31 PM.**
+☀️ **This afternoon, clear skies with excellent visibility, sunset at 5:31 PM.**
 
 **↑** 8° **↓** 1° · Tomorrow: 🌧️ 8°  
 Week: ▅▅██▅▁▃ (6° to 9°)
