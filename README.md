@@ -6,10 +6,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 5° 🌫️ · London 8° ☁️
 
 # 5°
-🌫️ **This morning, misty conditions with reduced visibility, feels like 3°, sunrise at 6:13 AM.**
+🌫️ **This morning, misty conditions with reduced visibility, feels like 3°. Golden hour for ~15 mins.**
 
 **↑** 10° **↓** 5° · Tomorrow: 🌧️ 6°  
-Week: █▆▂▁▄▆▆ (3° to 7°)  
+Week: ██▃▁▅██ (3° to 6°)  
 **Rain** 100%
 <!-- WEATHER_END -->
 
