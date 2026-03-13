@@ -3,10 +3,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 5° 🌧️ · London 6° ☁️
+Stockholm 5° 🌧️ · London 5° ☁️
 
 # 5°
-🌧️ **This evening, light drizzle with minimal accumulation, feels like 2°, sunrise at 6:10 AM.**
+🌧️ **This evening, light rain with minimal accumulation, feels like 3°, sunrise at 6:10 AM.**
 
 **↑** 8° **↓** 5° · Tomorrow: 🌧️ 5°  
 Week: █▃▃▅▁▅▆ (3° to 8°)  
