@@ -6,10 +6,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 5° 🌧️ · London 4° ☁️
 
 # 5°
-🌧️ **Tonight, moderate rainfall with steady precipitation, feels like 2°, sunrise at 6:10 AM.**
+🌧️ **Tonight, moderate rainfall with steady precipitation, sunrise at 6:07 AM.**
 
-**↑** 8° **↓** 5° · Tomorrow: 🌧️ 5°  
-Week: █▃▃▅▁▅▆ (3° to 8°)  
+**↑** 5° **↓** 3° · Tomorrow: 🌧️ 5°  
+Week: ▄▄▆▁▆█▆ (3° to 7°)  
 **Rain** 100%
 <!-- WEATHER_END -->
 
