@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 4° 🌧️ · London 12° ☁️
 
 # 4°
-🌧️ **This afternoon, light rain with minimal accumulation, sunset at 5:46 PM.**
+🌧️ **This afternoon, light rain with minimal accumulation. Golden hour now.**
 
 **↑** 5° **↓** 2° · Tomorrow: ❄️ 2°  
 Week: ▆▁████▆ (2° to 6°)  
