@@ -6,9 +6,9 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 3° 🌧️ · London 2° ☁️
 
 # 3°
-🌧️ **This morning, light drizzle with minimal accumulation, sunrise at 6:07 AM.**
+🌧️ **This morning, light rain with minimal accumulation. Golden hour for ~45 mins.**
 
-**↑** 6° **↓** 2° · Tomorrow: ❄️ 2°  
+**↑** 5° **↓** 2° · Tomorrow: ❄️ 2°  
 Week: ▆▁█▄██▆ (2° to 6°)  
 **Rain** 100%
 <!-- WEATHER_END -->
