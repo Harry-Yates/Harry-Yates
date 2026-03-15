@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 2° 🌧️ · London 3° ☁️
 
 # 2°
-🌧️ **This morning, moderate rainfall with steady precipitation, sunrise at 6:05 AM.**
+🌧️ **This morning, heavy rain with significant accumulation. Golden hour for ~30 mins.**
 
 **↑** 5° **↓** 1° · Tomorrow: 🌧️ 5°  
 Week: ▁▃▃█▅▂▃ (3° to 9°)  
