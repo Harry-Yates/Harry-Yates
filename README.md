@@ -9,8 +9,7 @@ Stockholm 4° ☁️ · London 11° ☁️
 ☁️ **Tonight, overcast conditions with complete cloud cover, feels like 1°, sunrise at 5:41 AM.**
 
 **↑** 9° **↓** 3° · Tomorrow: 🌧️ 6°  
-Week: █▆▆█▃▁▆ (2° to 7°)  
-**Wind** 15 km/h WSW
+Week: █▆▆█▃▁▆ (2° to 7°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
