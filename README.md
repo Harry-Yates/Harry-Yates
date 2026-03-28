@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 6° ☁️ · London 10° ☁️
 
 # 6°
-☁️ **This evening, overcast conditions with complete cloud cover, feels like 4°. Golden hour now.**
+☁️ **This evening, overcast conditions with complete cloud cover, feels like 4°. Golden hour for ~30 mins.**
 
 **↑** 7° **↓** 1° · Tomorrow: ☁️ 8°  
 Week: ▆█▃▇▆▅▁ (1° to 8°)
