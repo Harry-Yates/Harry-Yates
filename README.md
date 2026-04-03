@@ -6,9 +6,9 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 3° ☁️ · London 15° ☁️
 
 # 3°
-☁️ **This evening, mostly cloudy with broken cloud formations, feels like 0°, sunset at 7:33 PM.**
+☁️ **This evening, mostly cloudy with broken cloud formations, feels like 1°. Golden hour now.**
 
-**↑** 4° **↓** 2° · Tomorrow: ❄️ 4°  
+**↑** 5° **↓** 2° · Tomorrow: ❄️ 4°  
 Week: ▃▃▃█▃▁▃ (2° to 7°)  
 **Rain** 100%
 <!-- WEATHER_END -->
