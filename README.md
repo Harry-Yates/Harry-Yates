@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 2° 🌧️ · London 11° ☁️
 
 # 2°
-🌧️ **This morning, moderate rainfall with steady precipitation, feels like -2°, sunset at 7:33 PM.**
+🌧️ **This morning, light rain with minimal accumulation, feels like -2°, sunset at 7:33 PM.**
 
 **↑** 4° **↓** 2° · Tomorrow: ❄️ 3°  
 Week: ▂▄▆█▄▁▆ (1° to 5°)  
