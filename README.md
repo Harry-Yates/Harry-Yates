@@ -8,7 +8,7 @@ Stockholm 0° ☀️ · London 9° ☀️
 # 0°
 ☀️ **Tonight, clear skies with excellent visibility, feels like -2°, sunrise at 5:42 AM.**
 
-**↑** 11° **↓** -2° · Tomorrow: ☁️ 9°  
+**↑** 11° **↓** -1° · Tomorrow: ☁️ 9°  
 Week: ▃▁▃▃▅██ (9° to 12°)
 <!-- WEATHER_END -->
 
