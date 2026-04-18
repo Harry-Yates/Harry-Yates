@@ -9,7 +9,7 @@ Stockholm 16° ☁️ · London 16° ☀️
 ☁️ **This afternoon, overcast conditions with complete cloud cover, feels like 14°, sunset at 8:08 PM.**
 
 **↑** 16° **↓** 5° · Tomorrow: ☁️ 8°  
-Week: █▃▄▆▅▁▂ (3° to 16°)
+Week: █▂▄▆▅▁▂ (5° to 16°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
