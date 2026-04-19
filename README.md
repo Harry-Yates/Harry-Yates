@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 7° ☀️ · London 14° ☁️
 
 # 7°
-☀️ **This evening, clear skies with excellent visibility, feels like 5°. Golden hour now.**
+☀️ **This evening, clear skies with excellent visibility, feels like 4°. Golden hour for ~15 mins.**
 
 **↑** 10° **↓** 4° · Tomorrow: ☁️ 10°  
 Week: ▃▃██▂▂▁ (8° to 13°)
