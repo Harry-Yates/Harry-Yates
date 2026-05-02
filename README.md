@@ -3,12 +3,12 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 14° ☁️ · London 15° ☁️
+Stockholm 16° ☁️ · London 15° ☁️
 
-# 14°
+# 16°
 ☁️ **Tonight, mostly clear with a few clouds, sunrise at 4:44 AM.**
 
-**↑** 14° **↓** 4° · Tomorrow: 🌧️ 12°  
+**↑** 16° **↓** 4° · Tomorrow: 🌧️ 12°  
 Week: ▃▆▁▆▇█▆ (7° to 14°)  
 **Rain** 100%
 <!-- WEATHER_END -->
