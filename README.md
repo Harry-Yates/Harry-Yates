@@ -8,9 +8,9 @@ Stockholm 14° ☀️ · London 21° ☁️
 # 14°
 ☀️ **This afternoon, clear skies with excellent visibility, feels like 12°, sunset at 8:59 PM.**
 
-**↑** 14° **↓** 1°, **UV** 3 · Tomorrow: ☁️ 14°  
+**↑** 14° **↓** 1° · Tomorrow: ☁️ 14°  
 Week: ██▆▁▇██ (6° to 14°)  
-**Wind** 20 km/h ESE
+**Wind** 22 km/h E
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
