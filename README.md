@@ -8,9 +8,8 @@ Stockholm 15° ☀️ · London 12° ☁️
 # 15°
 ☀️ **This afternoon, clear skies with excellent visibility, sunset at 9:01 PM.**
 
-**↑** 15° **↓** 1°, **UV** 3 · Tomorrow: 🌧️ 13°  
-Week: ▇▅▂▁▃▆█ (7° to 16°)  
-**Rain** 25%
+**↑** 15° **↓** 1° · Tomorrow: 🌧️ 13°  
+Week: █▆▂▁▃█▇ (5° to 15°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
