@@ -3,14 +3,14 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 19° ☀️ · London 18° 🌧️
+Stockholm 15° ☀️ · London 18° ☁️
 
-# 19°
+# 15°
 ☀️ **This evening, clear skies with excellent visibility, sunset at 9:24 PM.**
 
 **↑** 20° **↓** 8° · Tomorrow: 🌧️ 16°  
 Week: ▄▁▃█▃▄▁ (16° to 22°)  
-**Wind** 19 km/h SE
+**Wind** 17 km/h SE
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
