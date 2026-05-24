@@ -3,7 +3,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 21° ☀️ · London 30° ☁️
+Stockholm 21° ☀️ · London 28° ☁️
 
 # 21°
 ☀️ **This evening, clear skies with excellent visibility, sunset at 9:32 PM.**
