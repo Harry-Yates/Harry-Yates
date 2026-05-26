@@ -3,15 +3,14 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 11° ☁️ · London 32° ☀️
+Stockholm 10° 🌧️ · London 28° ☁️
 
-# 11°
-☁️ **This evening, mostly cloudy with broken cloud formations, sunset at 9:36 PM.**
+# 10°
+🌧️ **This evening, light rain with minimal accumulation, sunrise at 3:53 AM.**
 
-**↑** 19° **↓** 10° · Tomorrow: 🌧️ 15°  
-Week: ▃▁▁▁▆█▂ (15° to 23°)  
-**Wind** 20 km/h NE  
-**Rain** 74%
+**↑** 19° **↓** 10° · Tomorrow: 🌧️ 16°  
+Week: ▄▂▁▃██▄ (15° to 21°)  
+**Rain** 59%
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
