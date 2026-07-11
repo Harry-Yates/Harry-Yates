@@ -8,8 +8,8 @@ Stockholm 26° ☁️ · London 29° ☀️
 # 26°
 ☁️ **This afternoon, overcast conditions with complete cloud cover, sunset at 9:55 PM.**
 
-**↑** 26° **↓** 14°, **UV** 4 · Tomorrow: ☁️ 19°  
-Week: ▄▁▄▅▆▆█ (19° to 30°)
+**↑** 26° **↓** 14°, **UV** 3 · Tomorrow: ☁️ 19°  
+Week: ▄▁▅▅▆▇█ (19° to 28°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
