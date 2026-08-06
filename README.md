@@ -3,13 +3,13 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 22° ☁️ · London 20° ☀️
+Stockholm 23° ☁️ · London 21° ☀️
 
-# 22°
-☁️ **This morning, mostly cloudy with broken cloud formations, sunset at 9:03 PM.**
+# 23°
+☁️ **This afternoon, mostly cloudy with broken cloud formations, sunset at 9:03 PM.**
 
-**↑** 25° **↓** 17°, **UV** 5 · Tomorrow: 🌧️ 22°  
-Week: ▆▆▅█▅▁▅ (17° to 23°)
+**↑** 24° **↓** 17°, **UV** 4 · Tomorrow: 🌧️ 22°  
+Week: ▇▆▅█▅▁▅ (17° to 24°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
