@@ -3,10 +3,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 18° ☁️ · London 23° ☀️
+Stockholm 18° ☁️ · London 21° ☀️
 
 # 18°
-☁️ **This evening, overcast conditions with complete cloud cover, sunrise at 4:46 AM.**
+☁️ **Tonight, overcast conditions with complete cloud cover, sunrise at 4:46 AM.**
 
 **↑** 20° **↓** 15° · Tomorrow: ☀️ 20°  
 Week: ▃▄█▅▁▁▅ (16° to 24°)
