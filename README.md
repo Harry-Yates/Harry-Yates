@@ -3,10 +3,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 19° ☁️ · London 24° ☁️
+Stockholm 18° ☁️ · London 22° ☁️
 
-# 19°
-☁️ **This evening, mostly cloudy with broken cloud formations, sunset at 8:50 PM.**
+# 18°
+☁️ **This evening, mostly clear with a few clouds. Golden hour for ~30 mins.**
 
 **↑** 20° **↓** 12° · Tomorrow: ☁️ 19°  
 Week: ▁▁▆▆█▃▁ (18° to 26°)
