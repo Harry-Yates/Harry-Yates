@@ -9,7 +9,7 @@ Stockholm 20° ☁️ · London 26° ☀️
 ☁️ **This afternoon, mostly cloudy with broken cloud formations, sunset at 8:50 PM.**
 
 **↑** 20° **↓** 12° · Tomorrow: ☁️ 19°  
-Week: ▁▁▆▆█▃▁ (19° to 26°)
+Week: ▁▁▆▆█▃▁ (18° to 26°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
