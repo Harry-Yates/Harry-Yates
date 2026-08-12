@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 13° ☁️ · London 16° ☁️
 
 # 13°
-☁️ **This morning, partly cloudy with scattered cloud cover. Golden hour now.**
+☁️ **This morning, partly cloudy with scattered cloud cover, sunset at 8:48 PM.**
 
 **↑** 21° **↓** 11° · Tomorrow: ☁️ 20°  
 Week: ▄▅██▆▁▃ (14° to 23°)
