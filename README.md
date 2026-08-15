@@ -6,11 +6,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 24° 🌧️ · London 26° ☁️
 
 # 24°
-🌧️ **This evening, light rain with minimal accumulation, sunset at 8:40 PM.**
+🌧️ **This evening, moderate rainfall with steady precipitation, sunset at 8:40 PM.**
 
 **↑** 25° **↓** 17° · Tomorrow: ☁️ 21°  
-Week: █▄▂▄▂▁▁ (18° to 25°)  
-**Wind** 17 km/h SSE
+Week: █▄▂▄▂▁▁ (18° to 25°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
