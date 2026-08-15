@@ -6,10 +6,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 27° ☁️ · London 25° ☁️
 
 # 27°
-☁️ **This morning, overcast conditions with complete cloud cover, sunset at 8:40 PM.**
+☁️ **This afternoon, overcast conditions with complete cloud cover, sunset at 8:40 PM.**
 
 **↑** 27° **↓** 17°, **UV** 3 · Tomorrow: ☁️ 21°  
-Week: █▃▂▃▁▃▂ (17° to 27°)
+Week: █▃▂▃▁▃▂ (17° to 27°)  
+**Wind** 15 km/h SSW
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
