@@ -9,7 +9,8 @@ Stockholm 21° ☁️ · London 22° ☁️
 ☁️ **Tonight, mostly clear with a few clouds, sunrise at 5:04 AM.**
 
 **↑** 26° **↓** 17° · Tomorrow: 🌧️ 18°  
-Week: █▃▅▅▁▄▃ (13° to 25°)
+Week: █▃▅▅▁▄▃ (13° to 25°)  
+**Wind** 17 km/h W
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
