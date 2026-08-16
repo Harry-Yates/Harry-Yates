@@ -6,11 +6,11 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 21° ☁️ · London 26° ☁️
 
 # 21°
-☁️ **This evening, mostly cloudy with broken cloud formations. Golden hour now.**
+☁️ **This evening, mostly cloudy with broken cloud formations. Golden hour for ~45 mins.**
 
 **↑** 21° **↓** 15° · Tomorrow: ☁️ 21°  
 Week: ▃█▆▅█▆▁ (16° to 21°)  
-**Wind** 19 km/h WNW  
+**Wind** 22 km/h W  
 **Rain** 96%
 <!-- WEATHER_END -->
 
