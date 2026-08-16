@@ -6,10 +6,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 19° ☁️ · London 24° ☁️
 
 # 19°
-☁️ **This evening, mostly clear with a few clouds, sunrise at 5:07 AM.**
+☁️ **This evening, partly cloudy with scattered cloud cover, sunrise at 5:07 AM.**
 
 **↑** 21° **↓** 15° · Tomorrow: ☀️ 21°  
-Week: ▃█▅▅█▆▁ (16° to 21°)  
+Week: ▄█▅▅▆▆▁ (15° to 21°)  
 **Rain** 96%
 <!-- WEATHER_END -->
 
