@@ -9,8 +9,8 @@ Stockholm 22° ☁️ · London 27° ☁️
 ☁️ **This afternoon, partly cloudy with scattered cloud cover, sunset at 8:34 PM.**
 
 **↑** 22° **↓** 13° · Tomorrow: ☁️ 20°  
-Week: █▆██▆▄▁ (17° to 21°)  
-**Wind** 19 km/h W
+Week: ▆▆██▆▄▁ (17° to 21°)  
+**Wind** 22 km/h W
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
