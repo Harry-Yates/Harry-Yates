@@ -9,8 +9,7 @@ Stockholm 20° ☁️ · London 27° ☁️
 ☁️ **This evening, mostly cloudy with broken cloud formations, sunset at 8:34 PM.**
 
 **↑** 22° **↓** 13° · Tomorrow: ☁️ 20°  
-Week: ▆▆██▆▄▁ (17° to 21°)  
-**Wind** 15 km/h W
+Week: ▆▆██▆▄▁ (17° to 21°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
