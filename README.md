@@ -8,8 +8,8 @@ Stockholm 14° ☁️ · London 19° ☁️
 # 14°
 ☁️ **This morning, mostly cloudy with broken cloud formations, sunset at 8:31 PM.**
 
-**↑** 21° **↓** 13° · Tomorrow: ☁️ 21°  
-Week: ▆█▆▆▄▁▆ (17° to 21°)  
+**↑** 21° **↓** 12° · Tomorrow: ☁️ 21°  
+Week: ▂█▆▆▄▁▆ (17° to 21°)  
 **Rain** 34%
 <!-- WEATHER_END -->
 
