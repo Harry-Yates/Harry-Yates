@@ -8,7 +8,7 @@ Stockholm 19° ☁️ · London 24° ☁️
 # 19°
 ☁️ **This evening, overcast conditions with complete cloud cover, sunset at 8:29 PM.**
 
-**↑** 20° **↓** 9° · Tomorrow: 🌧️ 17°  
+**↑** 21° **↓** 9° · Tomorrow: 🌧️ 17°  
 Week: █▂▁▆▄▆▆ (16° to 20°)
 <!-- WEATHER_END -->
 
