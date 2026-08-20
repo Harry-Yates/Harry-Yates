@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 14° ☁️ · London 16° ☀️
 
 # 14°
-☁️ **This morning, overcast conditions with complete cloud cover. Golden hour now.**
+☁️ **This morning, overcast conditions with complete cloud cover. Golden hour for ~15 mins.**
 
 **↑** 18° **↓** 12° · Tomorrow: 🌧️ 17°  
 Week: ▁▁██▄█▁ (17° to 19°)  
