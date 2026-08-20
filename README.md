@@ -9,7 +9,7 @@ Stockholm 13° 🌧️ · London 16° ☀️
 🌧️ **This morning, light rain with minimal accumulation, sunset at 8:26 PM.**
 
 **↑** 18° **↓** 12° · Tomorrow: 🌧️ 17°  
-Week: ▁▁██▄█▁ (17° to 19°)  
+Week: ▁▃██▅█▃ (16° to 19°)  
 **Rain** 100%
 <!-- WEATHER_END -->
 
