@@ -6,10 +6,10 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 18° 🌧️ · London 19° ☀️
 
 # 18°
-🌧️ **This morning, light rain with minimal accumulation, sunset at 8:23 PM.**
+🌧️ **This afternoon, moderate rainfall with steady precipitation, sunset at 8:23 PM.**
 
-**↑** 20° **↓** 12° · Tomorrow: ☁️ 19°  
-Week: ▁▂▄▂▂██ (18° to 22°)  
+**↑** 19° **↓** 12° · Tomorrow: ☁️ 19°  
+Week: ▁▃▅▅▃██ (17° to 22°)  
 **Rain** 31%
 <!-- WEATHER_END -->
 
