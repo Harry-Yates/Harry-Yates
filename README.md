@@ -10,7 +10,6 @@ Stockholm 18° ☁️ · London 22° ☁️
 
 **↑** 18° **↓** 12° · Tomorrow: 🌧️ 20°  
 Week: ▄▆▁▇█▇▇ (15° to 22°)  
-**Wind** 15 km/h NNW  
 **Rain** 100%
 <!-- WEATHER_END -->
 
