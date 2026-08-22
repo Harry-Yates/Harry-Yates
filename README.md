@@ -8,8 +8,8 @@ Stockholm 18° ☁️ · London 21° ☀️
 # 18°
 ☁️ **This afternoon, overcast conditions with complete cloud cover, sunset at 8:20 PM.**
 
-**↑** 18° **↓** 12° · Tomorrow: 🌧️ 19°  
-Week: ▃▄▁▅█▆▅ (16° to 22°)  
+**↑** 18° **↓** 12° · Tomorrow: 🌧️ 20°  
+Week: ▃▅▁▅█▆▅ (16° to 22°)  
 **Rain** 100%
 <!-- WEATHER_END -->
 
