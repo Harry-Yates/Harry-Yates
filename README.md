@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 15° 🌧️ · London 14° ☁️
 
 # 15°
-🌧️ **Tonight, light rain with minimal accumulation, sunrise at 5:23 AM.**
+🌧️ **Tonight, moderate rainfall with steady precipitation, sunrise at 5:23 AM.**
 
 **↑** 19° **↓** 12° · Tomorrow: ☁️ 20°  
 Week: ▁▄▆█▆▆▂ (18° to 22°)  
