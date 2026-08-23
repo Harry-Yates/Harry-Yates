@@ -8,9 +8,9 @@ Stockholm 14° ☁️ · London 13° ☁️
 # 14°
 ☁️ **Tonight, overcast conditions with complete cloud cover, sunrise at 5:23 AM.**
 
-**↑** 19° **↓** 13° · Tomorrow: ☁️ 20°  
-Week: ▁▄▆█▆▆▂ (18° to 22°)  
-**Wind** 15 km/h NW  
+**↑** 20° **↓** 13° · Tomorrow: ☁️ 20°  
+Week: ▁▅███▅▁ (18° to 21°)  
+**Wind** 17 km/h WNW  
 **Rain** 80%
 <!-- WEATHER_END -->
 
