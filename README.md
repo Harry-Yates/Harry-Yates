@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 20° ☁️ · London 24° ☀️
 
 # 20°
-☁️ **This evening, overcast conditions with complete cloud cover, sunset at 8:17 PM.**
+☁️ **This evening, overcast conditions with complete cloud cover. Golden hour for ~45 mins.**
 
 **↑** 20° **↓** 12° · Tomorrow: ☁️ 20°  
 Week: ▁▃██▃▃▁ (19° to 22°)  
