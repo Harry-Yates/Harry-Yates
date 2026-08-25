@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 10° ☁️ · London 15° ☁️
 
 # 10°
-☁️ **This morning, mostly clear with a few clouds, sunrise at 5:27 AM.**
+☁️ **This morning, mostly clear with a few clouds. Golden hour for ~30 mins.**
 
 **↑** 23° **↓** 10° · Tomorrow: ☁️ 22°  
 Week: ▅██▆▁▃▅ (17° to 22°)
