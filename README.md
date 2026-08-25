@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 13° ☁️ · London 19° ☁️
 
 # 13°
-☁️ **Tonight, partly cloudy with scattered cloud cover, sunrise at 5:27 AM.**
+☁️ **Tonight, mostly cloudy with broken cloud formations, sunrise at 5:27 AM.**
 
 **↑** 22° **↓** 11° · Tomorrow: ☀️ 21°  
 Week: ▅███▁▅▁ (18° to 21°)
