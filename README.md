@@ -6,7 +6,7 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 Stockholm 22° ☁️ · London 26° ☁️
 
 # 22°
-☁️ **This afternoon, mostly clear with a few clouds, sunset at 8:09 PM.**
+☁️ **This evening, mostly clear with a few clouds, sunset at 8:09 PM.**
 
 **↑** 23° **↓** 10° · Tomorrow: ☁️ 20°  
 Week: █▆█▃▆▆▁ (16° to 21°)
