@@ -9,7 +9,7 @@ Stockholm 13° ☀️ · London 18° ☁️
 ☀️ **This morning, clear skies with excellent visibility, sunset at 8:09 PM.**
 
 **↑** 26° **↓** 11° · Tomorrow: ☁️ 21°  
-Week: ███▆▅▇▁ (14° to 21°)
+Week: ▇██▆▅▇▁ (14° to 21°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
