@@ -3,13 +3,13 @@ Based in Stockholm · [harryyates.com](https://harryyates.com)
 <!-- INTRO_END -->
 
 <!-- WEATHER_START -->
-Stockholm 8° ☀️ · London 11° ☁️
+Stockholm 6° ☀️ · London 10° 🌫️
 
-# 8°
-☀️ **Tonight, clear skies with excellent visibility, feels like 6°, sunrise at 6:58 AM.**
+# 6°
+☀️ **Tonight, clear skies with excellent visibility, sunrise at 7:01 AM.**
 
-**↑** 10° **↓** 6° · Tomorrow: ☁️ 10°  
-Week: ▆█▃▆▂▂▁ (5° to 10°)
+**↑** 11° **↓** 6° · Tomorrow: ☁️ 7°  
+Week: █▂▄▂▆▁▂ (6° to 10°)
 <!-- WEATHER_END -->
 
 <!-- WAKATIME_START -->
